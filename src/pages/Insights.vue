@@ -4,7 +4,6 @@
     <NavBarWhite/>
     <div class="sections">
       <section class="content-block fullpage">
-        <div class="show-more"></div>
         <div v-parallax="0.4" class="cover-image tinted"></div>
         <div class="container">
           <div class="row">
@@ -63,14 +62,10 @@
       </section>
       <section class="content-block">
         <div class="container">
-          <div class="row">
-            <div class="column col-12">
-              <div class="spacer"></div>
-            </div>
-          </div>
+          <Spacer/>
         </div>
       </section>
-      <section class="content-block">
+      <section class="content-block grey">
         <div class="container">
           <div class="row">
             <div class="column col-12">
@@ -82,41 +77,9 @@
                   data-aos-duration="900"
                 >
                   <router-link class="insight-link" to="/insights">
-                    <img src="../assets/logo/cloud-computing.svg" alt="logo">
+                    <p>Agile</p>
                     <h3>Understanding What It Means To Be Agile</h3>
-                    <p>Agile, as it relates to project management for software development, is sometimes used as synonym for Scrum, Kanban or other type of framework..
-                      <br>
-                      <br>
-                      <span>Read More</span>
-                    </p>
-                  </router-link>
-                </div>
-                <div
-                  class="insight"
-                  data-aos="fade-up"
-                  data-aos-delay="200"
-                  data-aos-duration="900"
-                >
-                  <router-link class="insight-link" to="/insights">
-                    <img src="../assets/logo/cloud-computing (2).svg" alt="logo">
-                    <h3>Understanding What It Means To Be Agile</h3>
-                    <p>Agile, as it relates to project management for software development, is sometimes used as synonym for Scrum, Kanban or other type of framework..
-                      <br>
-                      <br>
-                      <span>Read More</span>
-                    </p>
-                  </router-link>
-                </div>
-                <div
-                  class="insight"
-                  data-aos="fade-up"
-                  data-aos-delay="400"
-                  data-aos-duration="900"
-                >
-                  <router-link class="insight-link" to="/insights">
-                    <img src="../assets/logo/cloud-computing (3).svg" alt="logo">
-                    <h3>Understanding What It Means To Be Agile</h3>
-                    <p>Agile, as it relates to project management for software development, is sometimes used as synonym for Scrum, Kanban or other type of framework..
+                    <p>Agile, as it relates to project management for software development, is sometimes used as synonym for Scrum, Kanban or other type of framework...
                       <br>
                       <br>
                       <span>Read More</span>
@@ -130,9 +93,9 @@
                   data-aos-duration="900"
                 >
                   <router-link class="insight-link" to="/insights">
-                    <img src="../assets/logo/cloud-computing.svg" alt="logo">
+                    <p>Agile</p>
                     <h3>Understanding What It Means To Be Agile</h3>
-                    <p>Agile, as it relates to project management for software development, is sometimes used as synonym for Scrum, Kanban or other type of framework..
+                    <p>Agile, as it relates to project management for software development, is sometimes used as synonym for Scrum, Kanban or other type of framework...
                       <br>
                       <br>
                       <span>Read More</span>
@@ -142,13 +105,13 @@
                 <div
                   class="insight"
                   data-aos="fade-up"
-                  data-aos-delay="200"
+                  data-aos-delay="100"
                   data-aos-duration="900"
                 >
                   <router-link class="insight-link" to="/insights">
-                    <img src="../assets/logo/cloud-computing (2).svg" alt="logo">
+                    <p>Agile</p>
                     <h3>Understanding What It Means To Be Agile</h3>
-                    <p>Agile, as it relates to project management for software development, is sometimes used as synonym for Scrum, Kanban or other type of framework..
+                    <p>Agile, as it relates to project management for software development, is sometimes used as synonym for Scrum, Kanban or other type of framework...
                       <br>
                       <br>
                       <span>Read More</span>
@@ -158,13 +121,45 @@
                 <div
                   class="insight"
                   data-aos="fade-up"
-                  data-aos-delay="400"
+                  data-aos-delay="100"
                   data-aos-duration="900"
                 >
                   <router-link class="insight-link" to="/insights">
-                    <img src="../assets/logo/cloud-computing (3).svg" alt="logo">
+                    <p>Agile</p>
                     <h3>Understanding What It Means To Be Agile</h3>
-                    <p>Agile, as it relates to project management for software development, is sometimes used as synonym for Scrum, Kanban or other type of framework..
+                    <p>Agile, as it relates to project management for software development, is sometimes used as synonym for Scrum, Kanban or other type of framework...
+                      <br>
+                      <br>
+                      <span>Read More</span>
+                    </p>
+                  </router-link>
+                </div>
+                <div
+                  class="insight"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                  data-aos-duration="900"
+                >
+                  <router-link class="insight-link" to="/insights">
+                    <p>Agile</p>
+                    <h3>Understanding What It Means To Be Agile in this modern ages</h3>
+                    <p>Agile, as it relates to project management for software development, is sometimes used as synonym for Scrum, Kanban or other type of framework...
+                      <br>
+                      <br>
+                      <span>Read More</span>
+                    </p>
+                  </router-link>
+                </div>
+                <div
+                  class="insight"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                  data-aos-duration="900"
+                >
+                  <router-link class="insight-link" to="/insights">
+                    <p>Agile</p>
+                    <h3>Understanding What It Means To Be Agile</h3>
+                    <p>Agile, as it relates to project management for software development, is sometimes used as synonym for Scrum, Kanban or other type of framework...
                       <br>
                       <br>
                       <span>Read More</span>
@@ -183,12 +178,14 @@
 <script>
 import NavBarWhite from "../components/NavBarWhite.vue";
 import ModalMenu from "../components/ModalMenu.vue";
+import Spacer from "../components/Spacer.vue";
 
 export default {
   name: "Insights",
   components: {
     NavBarWhite,
-    ModalMenu
+    ModalMenu,
+    Spacer
   }
 };
 </script>
@@ -197,17 +194,18 @@ export default {
 @import "../assets/sass/settings.sass"
 
 .cover-image
-  background-image: url(../assets/background/insights/insight-1large.jpg)
   filter: brightness(0.7) contrast(1.2) sepia(100%) hue-rotate(160deg) saturate(3.5)
+  background-image: url(../assets/background/insights/insight-1large.jpg)
 
 .insights-wrapper
   display: flex
   flex-wrap: wrap
+  padding-top: 100px
 
 .insight
-  flex-basis: 33.3333%
-  width: 33.3333%
-  max-width: 33.3333%
+  flex-basis: 100%
+  width: 100%
+  max-width: 100%
   padding-bottom: 100px
 
 .insight-link
@@ -215,30 +213,35 @@ export default {
   flex-direction: column
   padding: 20px
   position: relative
+  border-bottom: solid 0.05555rem $spacer-c
   transition: box-shadow 200ms cubic-bezier(.29,.29,.42,1.01)
 
 .insight-link h3
   color: $font-c-1
-  line-height: 1.4
+  line-height: 1.1
+  margin: 0 0 5px
+  font:
+    size: 3rem
+  color: #fff
 
 .insight-link p
-  color: $font-c-p-2
+  color: $font-c-p-3
 
 img
   height: 40px
   width: 40px
 
 span
-  color: $font-c-1
+  color: $font-c-p-2
 
 .insight-link::after
   content: ""
   position: absolute
   top: -10px
   left: 0
-  height: 1px
+  height: 2px
   width: 100%
-  transform: translatey(10px)
+  transform: translatey(40px)
   background: $dataconcepts-red
   opacity: 0
   transition: transform 400ms cubic-bezier(.29,.29,.42,1.01), opacity 600ms ease-in-out, color 600ms ease-in-out
@@ -251,18 +254,14 @@ span
   box-shadow: 0px 0px 40px rgba(0,0,0,.1)
 
 @media only screen and (max-width: 1000px)
-  .insight
-    flex-basis: 50%
-    width: 50%
-    max-width: 50%
   .insight-link
     padding: 10px
 
 @media only screen and (max-width: 678px)
-  .insight
-    flex-basis: 100%
-    width: 100%
-    max-width: 100%
+  .insight-link h3
+    font:
+      size: 2rem
+
   .insight-link
     padding: 5
 

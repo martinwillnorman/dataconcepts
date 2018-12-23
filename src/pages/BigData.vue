@@ -1,0 +1,221 @@
+<template>
+  <div class="content-holder">
+    <ModalMenu/>
+    <NavBarWhite/>
+    <div class="sections">
+      <section class="content-block fullpage">
+        <div v-parallax="0.4" class="cover-image tinted"></div>
+        <div class="container">
+          <div class="row">
+            <div @click="scrollDown" class="show-more">
+              <svg
+                fill="#fff"
+                version="1.1"
+                id="Ebene_2_1_"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                x="0px"
+                y="0px"
+                width="53px"
+                height="20px"
+                viewBox="0 0 53 20"
+                enable-background="new 0 0 53 20"
+                xml:space="preserve"
+              >
+                <g>
+                  <polygon
+                    points="26.5,17.688 9.114,3.779 10.303,2.312 26.5,15.269 42.697,2.313 43.886,3.779 	"
+                  ></polygon>
+                </g>
+              </svg>
+            </div>
+            <div class="column col-2 no-content"></div>
+            <div class="column col-4 responsive-8 responsive-12 center-content">
+              <ServiceHeader
+                title="Big Data"
+                kicker="Empower your organization with data-driven insights."
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="first" class="content-block">
+        <div class="container">
+          <ServicePromise
+            title="Big Data"
+            content="Big data analytics holds great potential for organizations that want to increase revenue and reduce cost. With big data you can go beyond traditional descriptive analytics and incorporate predictive and prescriptive analysis, which will help drive better decision-making. We help you rapidly deploy big data analytics solutions that integrate, store, manage, and protect your data."
+          />
+          <Spacer/>
+          <div class="row">
+            <div class="column col-12 center-horizontal">
+              <h1 class="section-header">Big Data Services</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="column col-12">
+              <div class="content-wrapper services-wrapper">
+                <SubService
+                  title="Identify Your Use Cases"
+                  content="Understanding your Big Data and Analytics use cases can be a challenge. Identifying the first step from a business and technology perspective can be overwhelming. Let us help you solve these challenges and get the most out of your Big Data environment."
+                />
+                <SubService
+                  title="Identify Your Use Cases"
+                  content="Understanding your Big Data and Analytics use cases can be a challenge. Identifying the first step from a business and technology perspective can be overwhelming. Let us help you solve these challenges and get the most out of your Big Data environment."
+                />
+                <SubService
+                  title="Identify Your Use Cases"
+                  content="Understanding your Big Data and Analytics use cases can be a challenge. Identifying the first step from a business and technology perspective can be overwhelming. Let us help you solve these challenges and get the most out of your Big Data environment."
+                />
+                <SubService
+                  title="Identify Your Use Cases"
+                  content="Understanding your Big Data and Analytics use cases can be a challenge. Identifying the first step from a business and technology perspective can be overwhelming. Let us help you solve these challenges and get the most out of your Big Data environment."
+                />
+                <SubService
+                  title="Identify Your Use Cases"
+                  content="Understanding your Big Data and Analytics use cases can be a challenge. Identifying the first step from a business and technology perspective can be overwhelming. Let us help you solve these challenges and get the most out of your Big Data environment."
+                />
+                <SubService
+                  title="Identify Your Use Cases"
+                  content="Understanding your Big Data and Analytics use cases can be a challenge. Identifying the first step from a business and technology perspective can be overwhelming. Let us help you solve these challenges and get the most out of your Big Data environment."
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <ServiceAsideRight
+        title="Big Data Opportunities"
+        content="The IT department obviously plays a critical role in the organization’s efforts to effectively harness all of the potential of Big Data. By implementing a data analytics architecture, you enable business units to collaborate, breaking boundaries and eliminating duplication of efforts. In this process of transforming an organization’s information structure, the IT department gains stature as an expert consultant and trusted provider. United in purpose with the business side, you form a partnership that fosters success for your organization."
+      />
+      <section class="content-block">
+        <div class="container">
+          <ServiceLeft
+            title="What is Big Data?"
+            content="Because of advances in technology, the definition of Big Data has changed over the years. Yet, one thing that remains the same is that the amount of data is continuously growing at an extremely rapid rate. All data, in any form, that is used for gaining insight and generating value is considered Big Data."
+          />
+          <ServiceRight
+            title="What is a Data Lake?"
+            content="A Data Lake is scale-out storage for your Big Data. It allows for Big Data accessibility– via traditional and next-generation access methods– to enable in-place analytics. With a Data Lake, you can keep more data and keep it longer, making it essential for true Hadoop environments."
+          />
+          <ServiceLeft
+            title="What is Big Data Analytics?"
+            content="Big Data Analytics is the practice of applying modern analytics software tools across data of all types, including unstructured, semi-structured, and structured data; as well as real-time/streaming and batch. At Data Concepts, we use Big Data Analytics is to discover insights and irregularities, and to enhance the understanding of business performance and customer behavior. These analytics-driven insights can be used to shape business outcomes, improve competitive advantage, enhance financial decisions and develop more concise projections for our Clients."
+          >
+            <router-link class="reg-link" to="/insights">Read More</router-link>
+          </ServiceLeft>
+        </div>
+      </section>
+      <ServiceAsideLeft
+        title="Big Data Transforms your Business"
+        content="Empower your organization with deeper insights and enhanced data-driven decision-making by using the right infrastructure for the right data. With solutions that integrate, store, manage, and protect your data, you can rapidly deploy Big Data analytics applications."
+      />
+      <ServiceApproach title="Big Data Approach"/>
+      <section class="content-block grey">
+        <div class="container">
+          <div class="row padded">
+            <div class="column col-12 flex">
+              <SubApproach
+                title="Actionable Insights"
+                content="Develop actionable insights and help identify and tackle problems."
+              >
+                <ul>
+                  <li>Synthesis</li>
+                  <li>Insights</li>
+                  <li>Analysis</li>
+                  <li>Reporting</li>
+                </ul>
+              </SubApproach>
+              <SubApproach
+                title="Secure Architecture"
+                content="Engineer secure data architectures, harness data from all sources, and synthesize it for analysis and action."
+              >
+                <ul>
+                  <li>Data Architecture</li>
+                  <li>Data Engineering</li>
+                  <li>Mirroring</li>
+                </ul>
+              </SubApproach>
+              <SubApproach
+                title="Dynamic Visualization"
+                content="Powerful, real-time and dynamic visualization tools give us a new understanding of how your business runs."
+              >
+                <ul>
+                  <li>Data Visualization</li>
+                  <li>Data Analysis</li>
+                  <li>Modeling</li>
+                </ul>
+              </SubApproach>
+              <SubApproach
+                title="Intelligence Development"
+                content="Use AI and machine-learning to create intelligent customer experiences, tools, and services for your business and its customers."
+              >
+                <ul>
+                  <li>Artificial Intelligence</li>
+                  <li>Machine Learning</li>
+                  <li>Feedback Looping</li>
+                  <li>Optimization</li>
+                  <li>Intelligent CX</li>
+                </ul>
+              </SubApproach>
+            </div>
+          </div>
+        </div>
+      </section>
+      <WorkTogether/>
+    </div>
+  </div>
+</template>
+
+<script>
+import NavBarWhite from "../components/NavBarWhite.vue";
+import ModalMenu from "../components/ModalMenu.vue";
+import ServiceHeader from "../components/ServiceHeader.vue";
+import ServicePromise from "../components/ServicePromise.vue";
+import Spacer from "../components/Spacer.vue";
+import SubService from "../components/SubService.vue";
+import ServiceAsideRight from "../components/ServiceAsideRight.vue";
+import ServiceAsideLeft from "../components/ServiceAsideLeft.vue";
+import ServiceLeft from "../components/ServiceLeft.vue";
+import ServiceRight from "../components/ServiceRight.vue";
+import ServiceApproach from "../components/ServiceApproach.vue";
+import SubApproach from "../components/SubApproach.vue";
+import WorkTogether from "../components/WorkTogether.vue";
+
+export default {
+  name: "BigData",
+  components: {
+    NavBarWhite,
+    ModalMenu,
+    Spacer,
+    ServiceHeader,
+    ServicePromise,
+    SubService,
+    ServiceAsideRight,
+    ServiceAsideLeft,
+    ServiceLeft,
+    ServiceRight,
+    ServiceApproach,
+    SubApproach,
+    WorkTogether
+  },
+  methods: {
+    scrollDown() {
+      document.getElementById("first").scrollIntoView({
+        behavior: "smooth",
+        block: "start"
+      });
+    }
+  }
+};
+</script>
+
+<style lang="sass" scoped>
+@import "../assets/sass/settings.sass"
+.cover-image
+  background-image: url(../assets/background/insights/insight-1large.jpg)
+  filter: brightness(0.35) contrast(1) sepia(100%) hue-rotate(140deg) saturate(6)
+
+.reg-link
+  margin: 20px 0 0
+
+</style>
