@@ -1,6 +1,6 @@
 <template>
   <div class="row">
-    <div class="column col-8 responsive-12">
+    <div data-aos="fade-up" data-aos-duration="600" class="column col-8 responsive-12">
       <h1>{{title}}</h1>
       <p>{{content}}</p>
       <slot></slot>
@@ -20,7 +20,7 @@ export default {
 @import "../assets/sass/settings.sass"
 
 .row
-    padding-bottom: 100px
+    padding-bottom: 60px
 
 h1
     margin-bottom: 20px
@@ -28,13 +28,23 @@ h1
       weight: 600
       size: 2rem
 
+p
+  padding-bottom: 20px
+
 ul
   columns: 2
+  padding-top: 20px
+  padding-bottom: 40px
 
 li
   margin-bottom: 10px
   font-weight: 600
 
-p
-  margin-bottom: 30px
+@media only screen and (max-width: 450px) 
+  .row
+    padding-bottom: 0
+
+  h1
+    font-size: 1.8rem
+    
 </style>

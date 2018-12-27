@@ -7,11 +7,42 @@ import BigData from "@/pages/BigData.vue";
 import IoT from "@/pages/IoT.vue";
 import Cloud from "@/pages/Cloud.vue";
 import BusinessIntelligence from "@/pages/BusinessIntelligence.vue";
+import DataAnalytics from "@/pages/DataAnalytics.vue";
+import AI from "@/pages/AI.vue";
+import Blockchain from "@/pages/Blockchain.vue";
+import ApplicationDevelopment from "@/pages/ApplicationDevelopment.vue";
+import CyberSecurity from "@/pages/CyberSecurity.vue";
+import Mobility from "@/pages/Mobility.vue";
+import MachineLearning from "@/pages/MachineLearning.vue";
+import Kafka from "@/pages/Kafka.vue";
+import ProgramManagement from "@/pages/ProgramManagement.vue";
+import DigitalStrategy from "@/pages/DigitalStrategy.vue";
+import DataStrategy from "@/pages/DataStrategy.vue";
+import DataGovernance from "@/pages/DataGovernance.vue";
+import DataWarehouse from "@/pages/DataWarehouse.vue";
+import DataIntegration from "@/pages/DataIntegration.vue";
+import MasterDataManagement from "@/pages/MasterDataManagement.vue";
+import DataVisualization from "@/pages/DataVisualization.vue";
+import DataScience from "@/pages/DataScience.vue";
+import InsightQuickPeek from "@/pages/InsightQuickPeek.vue";
+import InsightWorldBlockchain from "@/pages/InsightWorldBlockchain.vue";
+import InsightDataMining from "@/pages/InsightDataMining.vue";
+import InsightPopularAnalytics from "@/pages/InsightPopularAnalytics.vue";
+import InsightModernUtility from "@/pages/InsightModernUtility.vue";
+import InsightAzureML from "@/pages/InsightAzureML.vue";
+import InsightAgileTransformation from "@/pages/InsightAgileTransformation.vue";
 
 Vue.use(Router);
 
 const router = new Router({
   mode: "history",
+  scrollBehavior(to, from, savedPosition) {
+    if (savedPosition) {
+      return savedPosition;
+    } else {
+      return { x: 0, y: 0 };
+    }
+  },
   routes: [
     {
       path: "/",
@@ -62,6 +93,126 @@ const router = new Router({
       path: "/services/business-intelligence",
       name: "BusinessIntelligence",
       component: BusinessIntelligence
+    },
+    {
+      path: "/services/data-analytics",
+      name: "DataAnalytics",
+      component: DataAnalytics
+    },
+    {
+      path: "/services/artificial-intelligence",
+      name: "AI",
+      component: AI
+    },
+    {
+      path: "/services/blockchain",
+      name: "Blockchain",
+      component: Blockchain
+    },
+    {
+      path: "/services/application-development",
+      name: "ApplicationDevelopment",
+      component: ApplicationDevelopment
+    },
+    {
+      path: "/services/cyber-security",
+      name: "CyberSecurity",
+      component: CyberSecurity
+    },
+    {
+      path: "/services/mobility",
+      name: "Mobility",
+      component: Mobility
+    },
+    {
+      path: "/services/machine-learning",
+      name: "MachineLearning",
+      component: MachineLearning
+    },
+    {
+      path: "/services/kafka",
+      name: "Kafka",
+      component: Kafka
+    },
+    {
+      path: "/services/program-management",
+      name: "ProgramManagement",
+      component: ProgramManagement
+    },
+    {
+      path: "/services/digital-strategy",
+      name: "DigitalStrategy",
+      component: DigitalStrategy
+    },
+    {
+      path: "/services/data-strategy",
+      name: "DataStrategy",
+      component: DataStrategy
+    },
+    {
+      path: "/services/data-governance",
+      name: "DataGovernance",
+      component: DataGovernance
+    },
+    {
+      path: "/services/data-warehouse",
+      name: "DataWarehouse",
+      component: DataWarehouse
+    },
+    {
+      path: "/services/data-integration",
+      name: "DataIntegration",
+      component: DataIntegration
+    },
+    {
+      path: "/services/master-data-management",
+      name: "MasterDataManagement",
+      component: MasterDataManagement
+    },
+    {
+      path: "/services/data-visualization",
+      name: "DataVisualization",
+      component: DataVisualization
+    },
+    {
+      path: "/services/data-science",
+      name: "DataScience",
+      component: DataScience
+    },
+    {
+      path: "/insights/quick-peek",
+      name: "InsightQuickPeek",
+      component: InsightQuickPeek
+    },
+    {
+      path: "/insights/blockchain-world",
+      name: "InsightWorldBlockchain",
+      component: InsightWorldBlockchain
+    },
+    {
+      path: "/insights/data-mining",
+      name: "InsightDataMining",
+      component: InsightDataMining
+    },
+    {
+      path: "/insights/analytics-is-popular",
+      name: "InsightPopularAnalytics",
+      component: InsightPopularAnalytics
+    },
+    {
+      path: "/insights/modern-utility",
+      name: "InsightModernUtility",
+      component: InsightModernUtility
+    },
+    {
+      path: "/insights/azure-machine-learning",
+      name: "InsightAzureML",
+      component: InsightAzureML
+    },
+    {
+      path: "/insights/agile-transformation",
+      name: "InsightAgileTransformation",
+      component: InsightAgileTransformation
     }
   ]
 });

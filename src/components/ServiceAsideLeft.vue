@@ -4,8 +4,17 @@
       <div class="row">
         <div class="column col-8 responsive-12">
           <div class="content-wrapper service-aside">
-            <h1 class="section-header left short text-white">{{title}}</h1>
-            <p class="text-white">{{content}}</p>
+            <h1
+              data-aos="fade-up"
+              data-aos-duration="600"
+              class="section-header left medium text-white"
+            >{{title}}</h1>
+            <p
+              data-aos="fade-down"
+              data-aos-duration="600"
+              data-aos-delay="200"
+              class="text-white"
+            >{{content}}</p>
           </div>
         </div>
       </div>
@@ -24,7 +33,7 @@ export default {
 @import "../assets/sass/settings.sass"
 
 .service-aside
-  padding: 200px 0 0
+  padding: 200px 0 50px
 
 .content-block::before
   content: ''

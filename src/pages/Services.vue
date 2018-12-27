@@ -8,7 +8,7 @@
           <div class="nav-block"></div>
         </div>
       </section>
-      <section class="content-block grey">
+      <section class="content-block black">
         <div class="content-wrapper services-wrapper">
           <div class="service">
             <router-link class="service-link" to="/services/big-data"></router-link>
@@ -39,87 +39,73 @@
             </div>
           </div>
           <div class="service">
-            <router-link class="service-link" to="/services"></router-link>
+            <router-link class="service-link" to="/services/data-analytics"></router-link>
             <div class="service-background"></div>
             <div class="service-content">
-              <h3>Big Data</h3>
+              <h3>Data & Analytics</h3>
             </div>
           </div>
           <div class="service">
-            <router-link class="service-link" to="/services"></router-link>
+            <router-link class="service-link" to="/services/artificial-intelligence"></router-link>
             <div class="service-background"></div>
             <div class="service-content">
-              <h3>Big Data</h3>
+              <h3>AI</h3>
             </div>
           </div>
           <div class="service">
-            <router-link class="service-link" to="/services"></router-link>
+            <router-link class="service-link" to="/services/blockchain"></router-link>
             <div class="service-background"></div>
             <div class="service-content">
-              <h3>Big Data</h3>
+              <h3>Blockchain</h3>
             </div>
           </div>
           <div class="service">
-            <router-link class="service-link" to="/services"></router-link>
+            <router-link class="service-link" to="/services/application-development"></router-link>
             <div class="service-background"></div>
             <div class="service-content">
-              <h3>Big Data</h3>
+              <h3>Application Development</h3>
             </div>
           </div>
           <div class="service">
-            <router-link class="service-link" to="/services"></router-link>
+            <router-link class="service-link" to="/services/cyber-security"></router-link>
             <div class="service-background"></div>
             <div class="service-content">
-              <h3>Big Data</h3>
+              <h3>Cyber Security</h3>
             </div>
           </div>
           <div class="service">
-            <router-link class="service-link" to="/services"></router-link>
+            <router-link class="service-link" to="/services/mobility"></router-link>
             <div class="service-background"></div>
             <div class="service-content">
-              <h3>Big Data</h3>
+              <h3>Mobility</h3>
             </div>
           </div>
           <div class="service">
-            <router-link class="service-link" to="/services"></router-link>
+            <router-link class="service-link" to="/services/machine-learning"></router-link>
             <div class="service-background"></div>
             <div class="service-content">
-              <h3>Big Data</h3>
+              <h3>Machine Learning</h3>
             </div>
           </div>
           <div class="service">
-            <router-link class="service-link" to="/services"></router-link>
+            <router-link class="service-link" to="/services/kafka"></router-link>
             <div class="service-background"></div>
             <div class="service-content">
-              <h3>Big Data</h3>
+              <h3>Kafka</h3>
             </div>
           </div>
           <div class="service">
-            <router-link class="service-link" to="/services"></router-link>
+            <router-link class="service-link" to="/services/program-management"></router-link>
             <div class="service-background"></div>
             <div class="service-content">
-              <h3>Big Data</h3>
+              <h3>Program Management</h3>
             </div>
           </div>
           <div class="service">
-            <router-link class="service-link" to="/services"></router-link>
+            <router-link class="service-link" to="/services/digital-strategy"></router-link>
             <div class="service-background"></div>
             <div class="service-content">
-              <h3>Big Data</h3>
-            </div>
-          </div>
-          <div class="service">
-            <router-link class="service-link" to="/services"></router-link>
-            <div class="service-background"></div>
-            <div class="service-content">
-              <h3>Big Data</h3>
-            </div>
-          </div>
-          <div class="service">
-            <router-link class="service-link" to="/services"></router-link>
-            <div class="service-background"></div>
-            <div class="service-content">
-              <h3>Big Data</h3>
+              <h3>Digital Strategy</h3>
             </div>
           </div>
         </div>
@@ -133,62 +119,55 @@
           </div>
         </div>
       </section>
-      <section class="content-block grey">
+      <section class="content-block black">
         <div class="content-wrapper services-wrapper">
           <div class="service">
-            <router-link class="service-link" to="/services"></router-link>
+            <router-link class="service-link" to="/services/data-strategy"></router-link>
             <div class="service-background-2"></div>
             <div class="service-content">
-              <h3>Big Data</h3>
+              <h3>Data Strategy</h3>
             </div>
           </div>
           <div class="service">
-            <router-link class="service-link" to="/services"></router-link>
+            <router-link class="service-link" to="/services/data-governance"></router-link>
             <div class="service-background-2"></div>
             <div class="service-content">
-              <h3>Big Data</h3>
+              <h3>Data Governance</h3>
             </div>
           </div>
           <div class="service">
-            <router-link class="service-link" to="/services"></router-link>
+            <router-link class="service-link" to="/services/data-warehouse"></router-link>
             <div class="service-background-2"></div>
             <div class="service-content">
-              <h3>Big Data</h3>
+              <h3>Data Warehouse</h3>
             </div>
           </div>
           <div class="service">
-            <router-link class="service-link" to="/services"></router-link>
+            <router-link class="service-link" to="/services/data-integration"></router-link>
             <div class="service-background-2"></div>
             <div class="service-content">
-              <h3>Big Data</h3>
+              <h3>Data Integration</h3>
             </div>
           </div>
           <div class="service">
-            <router-link class="service-link" to="/services"></router-link>
+            <router-link class="service-link" to="/services/master-data-management"></router-link>
             <div class="service-background-2"></div>
             <div class="service-content">
-              <h3>Big Data</h3>
+              <h3>Master Data Management</h3>
             </div>
           </div>
           <div class="service">
-            <router-link class="service-link" to="/services"></router-link>
+            <router-link class="service-link" to="/services/data-visualization"></router-link>
             <div class="service-background-2"></div>
             <div class="service-content">
-              <h3>Big Data</h3>
+              <h3>Data Visualization</h3>
             </div>
           </div>
           <div class="service">
-            <router-link class="service-link" to="/services"></router-link>
+            <router-link class="service-link" to="/services/data-science"></router-link>
             <div class="service-background-2"></div>
             <div class="service-content">
-              <h3>Big Data</h3>
-            </div>
-          </div>
-          <div class="service">
-            <router-link class="service-link" to="/services"></router-link>
-            <div class="service-background-2"></div>
-            <div class="service-content">
-              <h3>Big Data</h3>
+              <h3>Data Science</h3>
             </div>
           </div>
         </div>
@@ -263,30 +242,19 @@ export default {
   transform: translatey(2px)
 
 .service-content
-    display: inline-block
-    position: relative
-    top: 70%
-    left: 5%
+  display: inline-block
+  position: relative
+  top: 64%
+  left: 5%
+  width: 90%
 
 .service-content h3
-    color: #fff
-    font:
-        size: 3rem
-        family: $font-body
-        weight: 200
-    letter-spacing: 0.2rem
-
-.service-content h3::after
-  content: ""
-  position: absolute
-  top: 100%
-  left: 0
-  height: 2px
-  width: 100%
-  transform: translatey(2px)
-  background: #fff
-  opacity: 0
-  transition: transform 400ms cubic-bezier(.29,.29,.42,1.01), opacity 600ms ease-in-out, color 600ms ease-in-out
+  color: #fff
+  font:
+      size: 3rem
+      family: $font-body
+      weight: 200
+  letter-spacing: 0.2rem
 
 h1
     font: 

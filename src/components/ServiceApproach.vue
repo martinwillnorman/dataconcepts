@@ -5,7 +5,11 @@
       <div class="row">
         <div class="column col-12 center-content">
           <div class="content-wrapper">
-            <h1 class="section-header text-white">{{title}}</h1>
+            <h1
+              data-aos="fade-in"
+              data-aos-duration="600"
+              class="image-section-header text-white"
+            >{{title}}</h1>
           </div>
         </div>
       </div>
@@ -31,4 +35,6 @@ export default {
 h1
   position: relative
   z-index: 999
+
+
 </style>

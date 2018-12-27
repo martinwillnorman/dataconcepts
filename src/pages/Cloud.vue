@@ -9,6 +9,8 @@
           <div class="row">
             <div @click="scrollDown" class="show-more">
               <svg
+                data-aos="fade-down"
+                data-aos-duration="600"
                 fill="#fff"
                 version="1.1"
                 id="Ebene_2_1_"
@@ -48,25 +50,35 @@
           <Spacer/>
           <div class="row">
             <div class="column col-12 center-horizontal">
-              <h1 class="section-header">Cloud Services</h1>
+              <h1 data-aos="fade-up" data-aos-duration="600" class="section-header">Cloud Services</h1>
             </div>
           </div>
           <div class="row padded-bottom">
             <div class="column col-12">
               <div class="content-wrapper services-wrapper">
                 <SubService
+                  data-aos="fade-down"
+                  data-aos-duration="600"
                   title="Cloud Strategy"
                   content="Unite key stakeholders and understand the key elements of cloud adoption."
                 />
                 <SubService
+                  data-aos="fade-down"
+                  data-aos-duration="600"
+                  data-aos-delay="200"
                   title="Cloud Planning"
                   content="Create a step-by-step action plan and strategy for migrating to the cloud."
                 />
                 <SubService
+                  data-aos="fade-down"
+                  data-aos-duration="600"
+                  data-aos-delay="400"
                   title="Cloud Migration"
                   content="Applications and data are securely migrated to the new target environment."
                 />
                 <SubService
+                  data-aos="fade-down"
+                  data-aos-duration="600"
                   title="Cloud Optimization"
                   content="Improve the reliability, security, and ROI of your cloud environment."
                 />
@@ -117,11 +129,15 @@
           </ServiceLeft>
         </div>
       </section>
-      <section class="content-block slant">
+      <section class="content-block slant-3">
         <div class="container">
           <div class="row">
-            <div class="column col-4 responsive-12">
-              <h1 class="section-header left">Roadmap: Journey to the Cloud</h1>
+            <div class="column col-5 responsive-12">
+              <h1
+                data-aos="fade-up"
+                data-aos-duration="600"
+                class="section-header left"
+              >Roadmap: Journey to the Cloud</h1>
             </div>
           </div>
           <SubJourney

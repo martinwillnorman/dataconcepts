@@ -1,9 +1,9 @@
 <template>
   <div class="row">
     <div class="column col-2 no-content"></div>
-    <div class="column col-8 responsive-12">
-      <div data-aos="fade-up" data-aos-duration="600" class="content-wrapper">
-        <h1>The Promise of {{title}}</h1>
+    <div data-aos="fade-up" class="column col-8 responsive-12">
+      <div class="content-wrapper">
+        <h1>{{title}}</h1>
         <p>{{content}}</p>
       </div>
     </div>
@@ -12,7 +12,7 @@
 
 <script>
 export default {
-  name: "",
+  name: "ServiceSubSection",
   props: ["title", "content"]
 };
 </script>
@@ -20,23 +20,16 @@ export default {
 
 <style lang="sass" scoped>
 @import "../assets/sass/settings.sass"
-.content-wrapper
-    padding: 100px 0 0
 
 h1
     font:
-        size: 3rem
+        size: 2.5rem
+        weight: 300
     margin-bottom: 30px
 
 @media only screen and (max-width: 450px)
   h1
     font:
-      size: 2.8rem
+      size: 2rem
 
-  .content-wrapper
-    padding: 60px 0 0
-
-    
 </style>
-
-

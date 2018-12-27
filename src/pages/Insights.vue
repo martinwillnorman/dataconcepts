@@ -16,6 +16,28 @@
                 >Here's a little insight into what we do</h1>
               </div>
             </div>
+            <div @click="scrollDown" class="show-more">
+              <svg
+                fill="#000"
+                version="1.1"
+                id="Ebene_2_1_"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                x="0px"
+                y="0px"
+                width="53px"
+                height="20px"
+                viewBox="0 0 53 20"
+                enable-background="new 0 0 53 20"
+                xml:space="preserve"
+              >
+                <g>
+                  <polygon
+                    points="26.5,17.688 9.114,3.779 10.303,2.312 26.5,15.269 42.697,2.313 43.886,3.779 	"
+                  ></polygon>
+                </g>
+              </svg>
+            </div>
           </div>
         </div>
       </section>
@@ -32,31 +54,6 @@
                 <p>We think it's important to provide our clients with key insights into the solutions that could help your business succeed.</p>
               </div>
             </div>
-            <div class="column col-12 responsive">
-              <div class="content-wrapper intruding-kicker-arrow-holder">
-                <svg
-                  data-aos="fade-in"
-                  data-aos-duration="900"
-                  version="1.1"
-                  id="Ebene_2_1_"
-                  xmlns="http://www.w3.org/2000/svg"
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                  x="0px"
-                  y="0px"
-                  width="53px"
-                  height="20px"
-                  viewBox="0 0 53 20"
-                  enable-background="new 0 0 53 20"
-                  xml:space="preserve"
-                >
-                  <g>
-                    <polygon
-                      points="26.5,17.688 9.114,3.779 10.303,2.312 26.5,15.269 42.697,2.313 43.886,3.779 	"
-                    ></polygon>
-                  </g>
-                </svg>
-              </div>
-            </div>
           </div>
         </div>
       </section>
@@ -65,107 +62,53 @@
           <Spacer/>
         </div>
       </section>
-      <section class="content-block grey">
+      <section id="first" class="content-block grey">
         <div class="container">
           <div class="row">
             <div class="column col-12">
               <div class="content-wrapper insights-wrapper">
-                <div
-                  class="insight"
-                  data-aos="fade-up"
-                  data-aos-delay="100"
-                  data-aos-duration="900"
-                >
-                  <router-link class="insight-link" to="/insights">
-                    <p>Agile</p>
-                    <h3>Understanding What It Means To Be Agile</h3>
-                    <p>Agile, as it relates to project management for software development, is sometimes used as synonym for Scrum, Kanban or other type of framework...
-                      <br>
-                      <br>
-                      <span>Read More</span>
-                    </p>
-                  </router-link>
-                </div>
-                <div
-                  class="insight"
-                  data-aos="fade-up"
-                  data-aos-delay="100"
-                  data-aos-duration="900"
-                >
-                  <router-link class="insight-link" to="/insights">
-                    <p>Agile</p>
-                    <h3>Understanding What It Means To Be Agile</h3>
-                    <p>Agile, as it relates to project management for software development, is sometimes used as synonym for Scrum, Kanban or other type of framework...
-                      <br>
-                      <br>
-                      <span>Read More</span>
-                    </p>
-                  </router-link>
-                </div>
-                <div
-                  class="insight"
-                  data-aos="fade-up"
-                  data-aos-delay="100"
-                  data-aos-duration="900"
-                >
-                  <router-link class="insight-link" to="/insights">
-                    <p>Agile</p>
-                    <h3>Understanding What It Means To Be Agile</h3>
-                    <p>Agile, as it relates to project management for software development, is sometimes used as synonym for Scrum, Kanban or other type of framework...
-                      <br>
-                      <br>
-                      <span>Read More</span>
-                    </p>
-                  </router-link>
-                </div>
-                <div
-                  class="insight"
-                  data-aos="fade-up"
-                  data-aos-delay="100"
-                  data-aos-duration="900"
-                >
-                  <router-link class="insight-link" to="/insights">
-                    <p>Agile</p>
-                    <h3>Understanding What It Means To Be Agile</h3>
-                    <p>Agile, as it relates to project management for software development, is sometimes used as synonym for Scrum, Kanban or other type of framework...
-                      <br>
-                      <br>
-                      <span>Read More</span>
-                    </p>
-                  </router-link>
-                </div>
-                <div
-                  class="insight"
-                  data-aos="fade-up"
-                  data-aos-delay="100"
-                  data-aos-duration="900"
-                >
-                  <router-link class="insight-link" to="/insights">
-                    <p>Agile</p>
-                    <h3>Understanding What It Means To Be Agile in this modern ages</h3>
-                    <p>Agile, as it relates to project management for software development, is sometimes used as synonym for Scrum, Kanban or other type of framework...
-                      <br>
-                      <br>
-                      <span>Read More</span>
-                    </p>
-                  </router-link>
-                </div>
-                <div
-                  class="insight"
-                  data-aos="fade-up"
-                  data-aos-delay="100"
-                  data-aos-duration="900"
-                >
-                  <router-link class="insight-link" to="/insights">
-                    <p>Agile</p>
-                    <h3>Understanding What It Means To Be Agile</h3>
-                    <p>Agile, as it relates to project management for software development, is sometimes used as synonym for Scrum, Kanban or other type of framework...
-                      <br>
-                      <br>
-                      <span>Read More</span>
-                    </p>
-                  </router-link>
-                </div>
+                <Insight
+                  link="/insights/quick-peek"
+                  category="Data"
+                  title="A Quick Peek At Our World Helping Clients with Data Strategy"
+                  summary="Every business and organisation has its own unique set of goals, KPIs and targets, and we believe that everything that we do should be devised, planned and executed with these objectives in mind."
+                ></Insight>
+                <Insight
+                  link="/insights/blockchain-world"
+                  category="Blockchain"
+                  title="Our Insights on the World of Blockchain"
+                  summary="Blockchain is one of the most dynamic inventions of this century. Though this revolutionary technology is still in its infancy, it has the potential to disrupt almost every industry and to change how the world works."
+                ></Insight>
+                <Insight
+                  link="/insights/data-mining"
+                  category="Big Data"
+                  title="Extracting Actionable Insights from Data"
+                  summary="Data mining is the extraction of actionable insights from data."
+                ></Insight>
+                <Insight
+                  link="/insights/analytics-is-popular"
+                  category="Data & Analytics"
+                  title="The Popularity of Analytics"
+                  summary="Ten imperatives for successfully developing an analytics capability."
+                ></Insight>
+                <Insight
+                  link="/insights/modern-utility"
+                  category="IoT"
+                  title="The Needs of Modern Utility Consumers"
+                  summary="The digital era has ushered in the trend of information being available at fingertips on-demand."
+                ></Insight>
+                <Insight
+                  link="/insights/azure-machine-learning"
+                  category="Machine Learning"
+                  title="5 Reasons Why We Love Azure ML for Machine Learning Solutions"
+                  summary="From virtual assistants to chatbots and automation to smart homes, Artificial Intelligent (AI) and Machine Learning have become prominent in our daily life."
+                ></Insight>
+                <Insight
+                  link="/insights/agile-transformation"
+                  category="Agile"
+                  title="Agile Transformation: It's a New Way of Thinking!"
+                  summary="Many of the world’s biggest companies struggle to be nimble, efficient, and data-driven, which then makes them less productive than they should be."
+                ></Insight>
               </div>
             </div>
           </div>
@@ -179,13 +122,23 @@
 import NavBarWhite from "../components/NavBarWhite.vue";
 import ModalMenu from "../components/ModalMenu.vue";
 import Spacer from "../components/Spacer.vue";
+import Insight from "../components/Insight.vue";
 
 export default {
   name: "Insights",
   components: {
     NavBarWhite,
     ModalMenu,
-    Spacer
+    Spacer,
+    Insight
+  },
+  methods: {
+    scrollDown() {
+      document.getElementById("first").scrollIntoView({
+        behavior: "smooth",
+        block: "start"
+      });
+    }
   }
 };
 </script>
@@ -202,68 +155,9 @@ export default {
   flex-wrap: wrap
   padding-top: 100px
 
-.insight
-  flex-basis: 100%
-  width: 100%
-  max-width: 100%
-  padding-bottom: 100px
-
-.insight-link
-  display: flex
-  flex-direction: column
-  padding: 20px
-  position: relative
-  border-bottom: solid 0.05555rem $spacer-c
-  transition: box-shadow 200ms cubic-bezier(.29,.29,.42,1.01)
-
-.insight-link h3
-  color: $font-c-1
-  line-height: 1.1
-  margin: 0 0 5px
-  font:
-    size: 3rem
-  color: #fff
-
-.insight-link p
-  color: $font-c-p-3
-
-img
-  height: 40px
-  width: 40px
-
-span
-  color: $font-c-p-2
-
-.insight-link::after
-  content: ""
-  position: absolute
-  top: -10px
-  left: 0
-  height: 2px
-  width: 100%
-  transform: translatey(40px)
-  background: $dataconcepts-red
-  opacity: 0
-  transition: transform 400ms cubic-bezier(.29,.29,.42,1.01), opacity 600ms ease-in-out, color 600ms ease-in-out
-
-.insight-link:hover:after 
-  opacity: 1  
-  transform: translatey(2px)
-
-.insight-link:hover
-  box-shadow: 0px 0px 40px rgba(0,0,0,.1)
-
-@media only screen and (max-width: 1000px)
-  .insight-link
-    padding: 10px
-
-@media only screen and (max-width: 678px)
-  .insight-link h3
-    font:
-      size: 2rem
-
-  .insight-link
-    padding: 5
+@media only screen and (max-width: 450px)
+  .insights-wrapper
+    padding-top: 60px
 
 </style>
 

@@ -5,12 +5,16 @@
       <div class="row">
         <div class="column col-12 center-content">
           <div class="content-wrapper">
-            <h1 class="section-header text-white">{{title}}</h1>
+            <h1
+              data-aos="fade-in"
+              data-aos-duration="600"
+              class="section-header text-white"
+            >{{title}}</h1>
           </div>
         </div>
       </div>
       <div class="row">
-        <div class="column col-6 responsive-12">
+        <div data-aos="fade-down" data-aos-duration="600" class="column col-6 responsive-12">
           <div class="content-wrapper stack-wrapper">
             <div class="stack">
               <h3>Data Storage</h3>
@@ -18,7 +22,12 @@
             </div>
           </div>
         </div>
-        <div class="column col-6 responsive-12">
+        <div
+          data-aos="fade-down"
+          data-aos-duration="600"
+          data-aos-delay="200"
+          class="column col-6 responsive-12"
+        >
           <div class="content-wrapper stack-wrapper">
             <div class="stack">
               <h3>ETL & Data Processing</h3>
@@ -52,7 +61,6 @@ h1
 
 .col-6
     display: flex
-    flex-direction
 
 .stack-wrapper
     color: #fff

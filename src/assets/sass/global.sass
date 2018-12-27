@@ -42,11 +42,47 @@ img
 .slant::after
   content: ' '
   position: absolute
-  top: -7%
+  top: -5%
+  left: -50%
+  height: 53%
+  z-index: -1
+  transform: skewY(-5deg)
+  overflow: hidden
+  width: 300vw
+  background: linear-gradient(to bottom,#eee 0%,#fff 62%)
+
+.slant-2::after
+  content: ' '
+  position: absolute
+  top: 15%
   left: -50%
   height: 53%
   z-index: -1
   transform: skewY(-6deg)
+  overflow: hidden
+  width: 300vw
+  background: linear-gradient(to bottom,#eee 0%,#fff 62%)
+
+.slant-3::after
+  content: ' '
+  position: absolute
+  top: -150px
+  left: -50%
+  height: 53%
+  z-index: -1
+  transform: skewY(-5deg)
+  overflow: hidden
+  width: 300vw
+  background: linear-gradient(to bottom,#eee 0%,#fff 62%)
+
+.slant-4::after
+  content: ' '
+  position: absolute
+  top: 150px
+  left: -50%
+  height: 53%
+  z-index: -1
+  transform: skewY(7deg)
   overflow: hidden
   width: 300vw
   background: linear-gradient(to bottom,#eee 0%,#fff 62%)
@@ -250,7 +286,7 @@ img
   width: 118vw
 
 .grey
-  background: $bround-c-4
+  background: $bround-c-4 !important
 
 .pink
   background: $bround-c-pink
@@ -264,6 +300,12 @@ img
 .gradient-2
   background: $bround-c-gradient-2
 
+.gradient-3
+  background: $bround-c-gradient-3
+
+.black
+  background: #000
+
 .content-block.clear-bottom
     margin-bottom: 200px
 
@@ -276,6 +318,13 @@ img
   min-height: 84vh
   width: 100%
   overflow: hidden
+
+.halfpage
+  min-height: calc(50vh - 80px)
+  width: 100%
+  overflow: hidden
+  padding-bottom: 40px
+
 
 .show-more
   cursor: pointer
@@ -401,13 +450,33 @@ img
 .section-header.short
   margin-bottom: 40px
 
+.image-section-header
+  font:
+    size: 3rem
+    weight: 300
+  color: $font-c-h-3
+  margin: 80px auto
+  position: relative
+  text-align: center
+  max-width: 800px
+
+.image-section-header::after
+  content: ""
+  height: 2px
+  width: 77px
+  background: $font-c-p-3
+  position: absolute
+  bottom: -20px
+  left: 50%
+  transform: translate(-50%, 0)
+
 .section-header::after
   content: ""
   height: 2px
   width: 77px
   background: $font-c-p-3
   position: absolute
-  top: 122%
+  bottom: -20px
   left: 50%
   transform: translate(-50%, 0)
 
@@ -471,6 +540,9 @@ img
     max-width: 100%
     flex-basis: 100%
 
+  .slant-3::after
+    top: -60px
+
 @media only screen and (max-width: 543.9px)
   .container
     padding: 0 1.11111rem
@@ -490,3 +562,29 @@ img
     width: 100%
     max-width: 100%
     flex-basis: 100%
+
+  .content-block.clear-bottom
+    margin-bottom: 60px
+
+  .padded
+   padding: 60px 0
+
+  .padded-bottom
+    padding: 0 0 60px
+
+  .padded-top
+    padding: 60px 0 0
+
+  .section-header
+    font:
+      size: 2.5rem
+
+  ul
+    columns: 1 !important
+
+  .section-header.medium
+    margin-bottom: 40px
+
+  .section-header 
+    margin-bottom: 40px
+    

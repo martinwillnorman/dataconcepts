@@ -4,8 +4,14 @@
       <div class="row padded">
         <div class="column col-12 center-content">
           <div class="content-wrapper">
-            <h1>Want To Work Together?</h1>
-            <router-link class="reg-link" to="/contact-us">Let's Connect</router-link>
+            <h1 data-aos="fade-up" data-aos-duration="600">Want To Work Together?</h1>
+            <router-link
+              data-aos="fade-up"
+              data-aos-duration="600"
+              data-aos-delay="200"
+              class="reg-link"
+              to="/contact-us"
+            >Let's Connect</router-link>
           </div>
         </div>
       </div>

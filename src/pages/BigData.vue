@@ -9,6 +9,8 @@
           <div class="row">
             <div @click="scrollDown" class="show-more">
               <svg
+                data-aos="fade-down"
+                data-aos-duration="600"
                 fill="#fff"
                 version="1.1"
                 id="Ebene_2_1_"
@@ -48,33 +50,53 @@
           <Spacer/>
           <div class="row">
             <div class="column col-12 center-horizontal">
-              <h1 class="section-header">Big Data Services</h1>
+              <h1
+                data-aos="fade-up"
+                data-aos-duration="600"
+                class="section-header"
+              >Big Data Services</h1>
             </div>
           </div>
           <div class="row">
             <div class="column col-12">
               <div class="content-wrapper services-wrapper">
                 <SubService
+                  data-aos="fade-down"
+                  data-aos-duration="600"
                   title="Identify Your Use Cases"
                   content="Understanding your Big Data and Analytics use cases can be a challenge. Identifying the first step from a business and technology perspective can be overwhelming. Let us help you solve these challenges and get the most out of your Big Data environment."
                 />
                 <SubService
+                  data-aos="fade-down"
+                  data-aos-duration="600"
+                  data-aos-delay="200"
                   title="Identify Your Use Cases"
                   content="Understanding your Big Data and Analytics use cases can be a challenge. Identifying the first step from a business and technology perspective can be overwhelming. Let us help you solve these challenges and get the most out of your Big Data environment."
                 />
                 <SubService
+                  data-aos="fade-down"
+                  data-aos-duration="600"
+                  data-aos-delay="400"
                   title="Identify Your Use Cases"
                   content="Understanding your Big Data and Analytics use cases can be a challenge. Identifying the first step from a business and technology perspective can be overwhelming. Let us help you solve these challenges and get the most out of your Big Data environment."
                 />
                 <SubService
+                  data-aos="fade-down"
+                  data-aos-duration="600"
                   title="Identify Your Use Cases"
                   content="Understanding your Big Data and Analytics use cases can be a challenge. Identifying the first step from a business and technology perspective can be overwhelming. Let us help you solve these challenges and get the most out of your Big Data environment."
                 />
                 <SubService
+                  data-aos="fade-down"
+                  data-aos-duration="600"
+                  data-aos-delay="200"
                   title="Identify Your Use Cases"
                   content="Understanding your Big Data and Analytics use cases can be a challenge. Identifying the first step from a business and technology perspective can be overwhelming. Let us help you solve these challenges and get the most out of your Big Data environment."
                 />
                 <SubService
+                  data-aos="fade-down"
+                  data-aos-duration="600"
+                  data-aos-delay="400"
                   title="Identify Your Use Cases"
                   content="Understanding your Big Data and Analytics use cases can be a challenge. Identifying the first step from a business and technology perspective can be overwhelming. Let us help you solve these challenges and get the most out of your Big Data environment."
                 />
@@ -115,6 +137,8 @@
           <div class="row padded">
             <div class="column col-12 flex">
               <SubApproach
+                data-aos="fade-up"
+                data-aos-duration="600"
                 title="Actionable Insights"
                 content="Develop actionable insights and help identify and tackle problems."
               >
@@ -126,6 +150,9 @@
                 </ul>
               </SubApproach>
               <SubApproach
+                data-aos="fade-up"
+                data-aos-duration="600"
+                data-aos-delay="200"
                 title="Secure Architecture"
                 content="Engineer secure data architectures, harness data from all sources, and synthesize it for analysis and action."
               >
@@ -136,6 +163,9 @@
                 </ul>
               </SubApproach>
               <SubApproach
+                data-aos="fade-up"
+                data-aos-duration="600"
+                data-aos-delay="400"
                 title="Dynamic Visualization"
                 content="Powerful, real-time and dynamic visualization tools give us a new understanding of how your business runs."
               >
@@ -146,6 +176,9 @@
                 </ul>
               </SubApproach>
               <SubApproach
+                data-aos="fade-up"
+                data-aos-duration="600"
+                data-aos-delay="600"
                 title="Intelligence Development"
                 content="Use AI and machine-learning to create intelligent customer experiences, tools, and services for your business and its customers."
               >

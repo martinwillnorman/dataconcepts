@@ -1,6 +1,6 @@
 <template>
   <div class="approach">
-    <div class="border">
+    <div data-aos="fade-up" data-aos-duration="600" class="border">
       <h1 class="text-white">{{title}}</h1>
       <p class="text-white">{{content}}</p>
       <slot></slot>

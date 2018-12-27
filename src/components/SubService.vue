@@ -21,6 +21,7 @@ export default {
   width: 33.3333%
   max-width: 33.3333%
   box-sizing: border-box
+  z-index: 999
 
 h1
   margin-bottom: 20px
