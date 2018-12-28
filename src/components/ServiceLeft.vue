@@ -23,6 +23,7 @@ export default {
 
 .content-wrapper
   padding-bottom: 100px
+  z-index: 999  
 
 ul
   columns: 2

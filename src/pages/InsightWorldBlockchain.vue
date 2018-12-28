@@ -181,7 +181,7 @@ import InsightSubHeader from "../components/InsightSubHeader.vue";
 import InsightSubSection from "../components/InsightSubSection.vue";
 
 export default {
-  name: "InsightQuickPeek",
+  name: "InsightWorldBlockchain",
   components: {
     NavBarWhite,
     ModalMenu,

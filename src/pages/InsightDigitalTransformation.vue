@@ -9,34 +9,30 @@
         </div>
       </section>
       <InsightHeader
-        category="Agile"
-        title="Agile Transformation: It's a New Way of Thinking!"
-        summary="Many of the world’s biggest companies struggle to be nimble, efficient, and data-driven, which then makes them less productive than they should be."
+        category="Digital"
+        title="Digital Transformation: Our Thoughts on Getting Started"
+        summary="Our digital strategists and technologists are changing the way our clients think about, assemble, ship, and run digital services."
       />
       <InsightSubHeader
-        content="Companies can achieve agile transformation at three levels: the project level, which is relatively easy to accomplish; the portfolio level, which is more complex; and the organization level, which requires a complete rethinking of a company’s operating model."
+        content="From cloud platform experts and data scientists, to Ruby and Hadoop developers, security engineers, and user experience designers, it's a community with license to open new perspectives and with freedom to explore new partnerships and the reuse of code and ideas."
       ></InsightSubHeader>
       <section class="content-block slant-4 padded-top">
         <div class="container">
           <InsightSubSection
-            class="padded-bottom"
-            title="Data Architecture"
-            content="Moving effectively from the first level to the last can be difficult for a large organization, but companies that move in progressive steps can succeed. Ultimately, creating a more agile way of working takes about two to three years to complete, but meaningful results can be achieved in as little as six months depending on an organization’s starting point and level of internal support. It’s not just their size that holds them back; much of the problem is created by a traditional business model that’s been created for scale and standardization, rather than for agility and innovation."
+            content="While your business grows and shifts in response to changing market conditions, your data is evolving at an even faster pace. That data holds the key to many opportunities, but to capitalize on them you must be able to manage your escalating volume of data, extract it from the right places, and turn it into real business insight. If your organization is struggling with how to tap into actionable data, you’re far from alone. Few companies make full use of the rich data available to them."
+          ></InsightSubSection>
+          <InsightSubSection
+            content="“Getting it right” requires not only strong technology and advanced analytic skills, but also industry best practices and organizational change experience --- a unique blend of experience that we bring to the table. We help you navigate the rapidly evolving landscape of tools and capabilities and translate complex business requirements into a practical technology-based data platform that suits your business."
+          ></InsightSubSection>
+          <InsightSubSection
+            content="In many cases, we have found it effective to start by targeting a particular business problem. From there, we can help you establish the elements of a robust data platform that are right for your business and information “consumers”: data marts and warehouses that store, protect, and govern your data; predictive/prescriptive modeling capabilities that enable you to anticipate outcomes and define actions based on observation or behavior; big data solutions that analyze extremely large volumes of structured and unstructured data and improve speed to market; and visualization capabilities that highlight trends and insights."
+          ></InsightSubSection>
+          <InsightSubSection
+            content="Our solutions leverage modern cloud technology, data science, machine learning, and accelerators—that generate insights faster, better, and cost effectively and adapt easily to your continuously evolving data sources."
           ></InsightSubSection>
           <InsightSubSection
             class="padded-bottom"
-            title="Cross-Functional, Dedicated Team"
-            content="Agile teams need dedicated employees from every part of the business, including operations, product management, and IT. While larger projects can have more team members, every group should abide by two rules. First, everyone must be fully dedicated to the effort. Second, team members must be doing the actual work—they can’t delegate tasks to others."
-          ></InsightSubSection>
-          <InsightSubSection
-            class="padded-bottom"
-            title="Iterative, Empirical Approach"
-            content="Work should be completed in fixed-length iterations, and a working prototype should be created after each iteration. Design and prioritization decisions are then informed by the feedback and results from the demonstrations of the product. During the early stages of an agile transformation, allow for longer iteration lengths—four to six weeks instead of the usual two weeks—and limit the depth of testing. Both can help build the case for investing in critical technical enablers."
-          ></InsightSubSection>
-          <InsightSubSection
-            class="padded-bottom"
-            title="Continuous Improvement"
-            content="Agile is, by definition, not static. Teams are constantly identifying ways to become more productive by tweaking and tuning their environment and the way they work. We often see teams continue to significantly increase their productivity, even four to five years after going through the initial agile transformation."
+            content="Even better, we support you every step of the way toward becoming a data-driven organization—from creating an information management strategy, to delivering new capabilities, to using insight effectively, to running and refining solutions on an ongoing. The result is a more knowledgeable, efficient, productive, agile, and best of all, competitive, organization—one able to make data-driven decisions you never thought possible."
           ></InsightSubSection>
         </div>
       </section>

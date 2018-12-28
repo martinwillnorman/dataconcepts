@@ -4,7 +4,7 @@
     <NavBarWhite/>
     <div class="sections">
       <section class="content-block fullpage">
-        <div v-parallax="0.4" class="cover-image tinted"></div>
+        <div id="big-data" v-parallax="0.4" class="cover-image tinted"></div>
         <div class="container">
           <div class="row">
             <div @click="scrollDown" class="show-more">
@@ -70,35 +70,35 @@
                   data-aos="fade-down"
                   data-aos-duration="600"
                   data-aos-delay="200"
-                  title="Identify Your Use Cases"
-                  content="Understanding your Big Data and Analytics use cases can be a challenge. Identifying the first step from a business and technology perspective can be overwhelming. Let us help you solve these challenges and get the most out of your Big Data environment."
+                  title="Integrate & Access Your Data"
+                  content="Analytics requires having availability to all data. This is possible by removing silos and consolidating all your data into a Data Lake. Incorporating diverse sources and unifying data types gives you richer insights that will drive better business outcomes."
                 />
                 <SubService
                   data-aos="fade-down"
                   data-aos-duration="600"
                   data-aos-delay="400"
-                  title="Identify Your Use Cases"
-                  content="Understanding your Big Data and Analytics use cases can be a challenge. Identifying the first step from a business and technology perspective can be overwhelming. Let us help you solve these challenges and get the most out of your Big Data environment."
+                  title="Analyze Your Data"
+                  content="Enhance your competitive edge with data driven decisions. Empower your end users with accelerated queries and reporting with anywhere, anytime, all-data analytics. Enable your organization with self-service analytics capabilities."
                 />
                 <SubService
                   data-aos="fade-down"
                   data-aos-duration="600"
-                  title="Identify Your Use Cases"
-                  content="Understanding your Big Data and Analytics use cases can be a challenge. Identifying the first step from a business and technology perspective can be overwhelming. Let us help you solve these challenges and get the most out of your Big Data environment."
+                  title="Eliminate Silos & Simplify"
+                  content="Streamline to an enterprise-proven, scale-out platform for unstructured and structured data. Using a single volume is easy to manage without data migrations."
                 />
                 <SubService
                   data-aos="fade-down"
                   data-aos-duration="600"
                   data-aos-delay="200"
-                  title="Identify Your Use Cases"
-                  content="Understanding your Big Data and Analytics use cases can be a challenge. Identifying the first step from a business and technology perspective can be overwhelming. Let us help you solve these challenges and get the most out of your Big Data environment."
+                  title="Optimize Storage"
+                  content="With flexible deployment and protection capabilities, expand seamlessly to the cloud while being transparent to users and applications."
                 />
                 <SubService
                   data-aos="fade-down"
                   data-aos-duration="600"
                   data-aos-delay="400"
-                  title="Identify Your Use Cases"
-                  content="Understanding your Big Data and Analytics use cases can be a challenge. Identifying the first step from a business and technology perspective can be overwhelming. Let us help you solve these challenges and get the most out of your Big Data environment."
+                  title="Use Analytics to Gain Insight"
+                  content="Leverage Big Data Analytics & enable in-place analytics to discover actionable insights at the speed your business decisions require."
                 />
               </div>
             </div>
@@ -118,20 +118,22 @@
           <ServiceRight
             title="What is a Data Lake?"
             content="A Data Lake is scale-out storage for your Big Data. It allows for Big Data accessibility– via traditional and next-generation access methods– to enable in-place analytics. With a Data Lake, you can keep more data and keep it longer, making it essential for true Hadoop environments."
-          />
+          >
+            <router-link class="reg-link" to="/insights">Read More</router-link>
+          </ServiceRight>
           <ServiceLeft
             title="What is Big Data Analytics?"
             content="Big Data Analytics is the practice of applying modern analytics software tools across data of all types, including unstructured, semi-structured, and structured data; as well as real-time/streaming and batch. At Data Concepts, we use Big Data Analytics is to discover insights and irregularities, and to enhance the understanding of business performance and customer behavior. These analytics-driven insights can be used to shape business outcomes, improve competitive advantage, enhance financial decisions and develop more concise projections for our Clients."
-          >
-            <router-link class="reg-link" to="/insights">Read More</router-link>
-          </ServiceLeft>
+          ></ServiceLeft>
         </div>
       </section>
       <ServiceAsideLeft
         title="Big Data Transforms your Business"
         content="Empower your organization with deeper insights and enhanced data-driven decision-making by using the right infrastructure for the right data. With solutions that integrate, store, manage, and protect your data, you can rapidly deploy Big Data analytics applications."
       />
-      <ServiceApproach title="Big Data Approach"/>
+      <ServiceApproach title="Big Data Approach">
+        <div id="approach" v-parallax="0.2" class="cover-image tinted"></div>
+      </ServiceApproach>
       <section class="content-block grey">
         <div class="container">
           <div class="row padded">
@@ -244,9 +246,12 @@ export default {
 
 <style lang="sass" scoped>
 @import "../assets/sass/settings.sass"
-.cover-image
-  background-image: url(../assets/background/insights/insight-1large.jpg)
-  filter: brightness(0.35) contrast(1) sepia(100%) hue-rotate(140deg) saturate(6)
+#big-data
+  background-image: url(../assets/background/services-large/big-data.jpg)
+  // filter: brightness(0.35) contrast(1) sepia(100%) hue-rotate(140deg) saturate(6)
+
+#approach
+  background-image: url(../assets/background/services-large/approach-1.jpg)
 
 .reg-link
   margin: 20px 0 0

@@ -12,100 +12,100 @@
         <div class="content-wrapper services-wrapper">
           <div class="service">
             <router-link class="service-link" to="/services/big-data"></router-link>
-            <div class="service-background"></div>
+            <div id="big-data-bround" class="service-background"></div>
             <div class="service-content">
               <h3>Big Data</h3>
             </div>
           </div>
           <div class="service">
             <router-link class="service-link" to="/services/iot"></router-link>
-            <div class="service-background"></div>
+            <div id="iot-bround" class="service-background"></div>
             <div class="service-content">
               <h3>IoT</h3>
             </div>
           </div>
           <div class="service">
             <router-link class="service-link" to="/services/cloud"></router-link>
-            <div class="service-background"></div>
+            <div id="cloud-bround" class="service-background"></div>
             <div class="service-content">
               <h3>Cloud</h3>
             </div>
           </div>
           <div class="service">
             <router-link class="service-link" to="/services/business-intelligence"></router-link>
-            <div class="service-background"></div>
+            <div id="bi-bround" class="service-background"></div>
             <div class="service-content">
               <h3>BI</h3>
             </div>
           </div>
           <div class="service">
             <router-link class="service-link" to="/services/data-analytics"></router-link>
-            <div class="service-background"></div>
+            <div id="data-analytics-bround" class="service-background"></div>
             <div class="service-content">
               <h3>Data & Analytics</h3>
             </div>
           </div>
           <div class="service">
             <router-link class="service-link" to="/services/artificial-intelligence"></router-link>
-            <div class="service-background"></div>
+            <div id="ai-bround" class="service-background"></div>
             <div class="service-content">
               <h3>AI</h3>
             </div>
           </div>
           <div class="service">
             <router-link class="service-link" to="/services/blockchain"></router-link>
-            <div class="service-background"></div>
+            <div id="blockchain-bround" class="service-background"></div>
             <div class="service-content">
               <h3>Blockchain</h3>
             </div>
           </div>
           <div class="service">
             <router-link class="service-link" to="/services/application-development"></router-link>
-            <div class="service-background"></div>
+            <div id="app-dev-bround" class="service-background"></div>
             <div class="service-content">
               <h3>Application Development</h3>
             </div>
           </div>
           <div class="service">
-            <router-link class="service-link" to="/services/cyber-security"></router-link>
-            <div class="service-background"></div>
-            <div class="service-content">
-              <h3>Cyber Security</h3>
-            </div>
-          </div>
-          <div class="service">
             <router-link class="service-link" to="/services/mobility"></router-link>
-            <div class="service-background"></div>
+            <div id="mobility-bround" class="service-background"></div>
             <div class="service-content">
               <h3>Mobility</h3>
             </div>
           </div>
           <div class="service">
             <router-link class="service-link" to="/services/machine-learning"></router-link>
-            <div class="service-background"></div>
+            <div id="ml-bround" class="service-background"></div>
             <div class="service-content">
               <h3>Machine Learning</h3>
             </div>
           </div>
           <div class="service">
             <router-link class="service-link" to="/services/kafka"></router-link>
-            <div class="service-background"></div>
+            <div id="kafka-bround" class="service-background"></div>
             <div class="service-content">
               <h3>Kafka</h3>
             </div>
           </div>
           <div class="service">
             <router-link class="service-link" to="/services/program-management"></router-link>
-            <div class="service-background"></div>
+            <div id="program-management-bround" class="service-background"></div>
             <div class="service-content">
               <h3>Program Management</h3>
             </div>
           </div>
           <div class="service">
             <router-link class="service-link" to="/services/digital-strategy"></router-link>
-            <div class="service-background"></div>
+            <div id="digital-strategy-bround" class="service-background"></div>
             <div class="service-content">
               <h3>Digital Strategy</h3>
+            </div>
+          </div>
+          <div class="service">
+            <router-link class="service-link" to="/services/cyber-security"></router-link>
+            <div id="cyber-security-bround" class="service-background"></div>
+            <div class="service-content">
+              <h3>Cyber Security</h3>
             </div>
           </div>
         </div>
@@ -123,49 +123,49 @@
         <div class="content-wrapper services-wrapper">
           <div class="service">
             <router-link class="service-link" to="/services/data-strategy"></router-link>
-            <div class="service-background-2"></div>
+            <div id="data-strategy-bround" class="service-background-2"></div>
             <div class="service-content">
               <h3>Data Strategy</h3>
             </div>
           </div>
           <div class="service">
             <router-link class="service-link" to="/services/data-governance"></router-link>
-            <div class="service-background-2"></div>
+            <div id="data-gov-bround" class="service-background-2"></div>
             <div class="service-content">
               <h3>Data Governance</h3>
             </div>
           </div>
           <div class="service">
             <router-link class="service-link" to="/services/data-warehouse"></router-link>
-            <div class="service-background-2"></div>
+            <div id="data-ware-bround" class="service-background-2"></div>
             <div class="service-content">
               <h3>Data Warehouse</h3>
             </div>
           </div>
           <div class="service">
             <router-link class="service-link" to="/services/data-integration"></router-link>
-            <div class="service-background-2"></div>
+            <div id="data-int-bround" class="service-background-2"></div>
             <div class="service-content">
               <h3>Data Integration</h3>
             </div>
           </div>
           <div class="service">
             <router-link class="service-link" to="/services/master-data-management"></router-link>
-            <div class="service-background-2"></div>
+            <div id="mdm-bround" class="service-background-2"></div>
             <div class="service-content">
               <h3>Master Data Management</h3>
             </div>
           </div>
           <div class="service">
             <router-link class="service-link" to="/services/data-visualization"></router-link>
-            <div class="service-background-2"></div>
+            <div id="data-vis-bround" class="service-background-2"></div>
             <div class="service-content">
               <h3>Data Visualization</h3>
             </div>
           </div>
           <div class="service">
             <router-link class="service-link" to="/services/data-science"></router-link>
-            <div class="service-background-2"></div>
+            <div id="data-sci-bround" class="service-background-2"></div>
             <div class="service-content">
               <h3>Data Science</h3>
             </div>
@@ -192,6 +192,69 @@ export default {
 <style lang="sass" scoped>
 @import "../assets/sass/settings.sass"
 
+#big-data-bround
+  background-image: url(../assets/background/services-small/big-data.jpg)
+
+#iot-bround
+  background-image: url(../assets/background/services-small/iot.jpg)
+
+#cloud-bround
+  background-image: url(../assets/background/services-small/cloud.jpg)
+
+#bi-bround
+  background-image: url(../assets/background/services-small/bi.jpg)
+
+#data-analytics-bround
+  background-image: url(../assets/background/services-small/data-analytics.jpg)
+
+#ai-bround
+  background-image: url(../assets/background/services-small/ai.jpg)
+
+#blockchain-bround
+  background-image: url(../assets/background/services-small/blockchain.jpg)
+
+#app-dev-bround
+  background-image: url(../assets/background/services-small/app-dev.jpg)
+
+#cyber-security-bround
+  background-image: url(../assets/background/services-small/cyber-security.jpg)
+
+#mobility-bround
+  background-image: url(../assets/background/services-small/mobility.jpg)
+
+#ml-bround
+  background-image: url(../assets/background/services-small/machine-learning.jpg)
+
+#kafka-bround
+  background-image: url(../assets/background/services-small/kafka.jpg)
+
+#program-management-bround
+  background-image: url(../assets/background/services-small/program-management.jpg)
+
+#digital-strategy-bround
+  background-image: url(../assets/background/services-small/digital-strategy.jpg)
+
+#data-strategy-bround
+  background-image: url(../assets/background/services-small/data-strategy.jpg)
+
+#data-gov-bround
+  background-image: url(../assets/background/services-small/data-governance.jpg)
+
+#data-ware-bround
+  background-image: url(../assets/background/services-small/data-warehouse.jpg)
+
+#data-int-bround
+  background-image: url(../assets/background/services-small/data-integration.jpg)
+
+#data-sci-bround
+  background-image: url(../assets/background/services-small/data-science.jpg)
+
+#mdm-bround
+  background-image: url(../assets/background/services-small/mdm.jpg)
+
+#data-vis-bround
+  background-image: url(../assets/background/services-small/data-visualization.jpg)
+
 .services-wrapper
     display: flex
     flex-wrap: wrap
@@ -204,7 +267,6 @@ export default {
     position: relative
 
 .service-background
-    background-image: url(../assets/background/insights/insight-1large.jpg)
     filter: brightness(0.35) contrast(1) sepia(100%) hue-rotate(140deg) saturate(6)
     background-size: cover
     position: absolute
@@ -214,7 +276,6 @@ export default {
     left: 0
 
 .service-background-2
-    background-image: url(../assets/background/insights/insight-1large.jpg)
     filter: brightness(0.35) contrast(1) sepia(100%) hue-rotate(235deg) saturate(6)
     background-size: cover
     position: absolute

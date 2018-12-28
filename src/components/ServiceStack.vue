@@ -52,7 +52,7 @@ export default {
 @import "../assets/sass/settings.sass"
 
 .cover-image
-  background-image: url("../assets/background/services/insight-1large.jpg")
+  background-image: url("../assets/background/services-large/approach-9.jpg")
   filter: brightness(0.35) contrast(1) sepia(100%) hue-rotate(210deg) saturate(6)
 
 h1

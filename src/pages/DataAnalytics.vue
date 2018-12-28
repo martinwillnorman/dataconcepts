@@ -234,6 +234,31 @@
           </div>
         </div>
       </section>
+      <section class="content-block">
+        <div class="container">
+          <div class="row padded-top">
+            <div class="column col-12 center-horizontal">
+              <h1 data-aos="fade-up" data-aos-duration="600" class="section-header">Related</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="column col-12">
+              <div class="content-wrapper related-wrapper">
+                <RelatedBox
+                  link="/insights/big-data-business"
+                  category="Insight"
+                  title="Roadmap For Driving Business With Data"
+                ></RelatedBox>
+                <RelatedBox
+                  link="/insights/analytics-is-popular"
+                  category="Insight"
+                  title="The Popularity of Analytics"
+                ></RelatedBox>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <WorkTogether/>
     </div>
   </div>
@@ -255,9 +280,10 @@ import SubApproach from "../components/SubApproach.vue";
 import WorkTogether from "../components/WorkTogether.vue";
 import SubHeader from "../components/SubHeader.vue";
 import Advantages from "../components/Advantages.vue";
+import RelatedBox from "../components/RelatedBox.vue";
 
 export default {
-  name: "IoT",
+  name: "DataAnalytics",
   components: {
     NavBarWhite,
     ModalMenu,
@@ -273,7 +299,8 @@ export default {
     SubApproach,
     WorkTogether,
     SubHeader,
-    Advantages
+    Advantages,
+    RelatedBox
   },
   methods: {
     scrollDown() {
@@ -290,8 +317,8 @@ export default {
 <style lang="sass" scoped>
 @import "../assets/sass/settings.sass"
 .cover-image
-  background-image: url(../assets/background/insights/insight-1large.jpg)
-  filter: brightness(0.35) contrast(1) sepia(100%) hue-rotate(140deg) saturate(6)
+  background-image: url(../assets/background/services-large/data-analytics.jpg)
+  // filter: brightness(0.35) contrast(1) sepia(100%) hue-rotate(140deg) saturate(6)
 
 .reg-link
   margin: 20px 0 0

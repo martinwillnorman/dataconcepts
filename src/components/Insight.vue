@@ -1,5 +1,5 @@
 <template>
-  <div class="insight" data-aos="fade-up" data-aos-delay="100" data-aos-duration="900">
+  <div class="insight" data-aos="fade-up" data-aos-delay="100" data-aos-duration="600">
     <router-link class="insight-link" :to="link">
       <p>{{category}}</p>
       <h3>{{title}}</h3>

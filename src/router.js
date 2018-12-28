@@ -3,6 +3,7 @@ import Router from "vue-router";
 import Home from "@/pages/Home.vue";
 import Insights from "@/pages/Insights.vue";
 import Services from "@/pages/Services.vue";
+import Works from "@/pages/Works.vue";
 import BigData from "@/pages/BigData.vue";
 import IoT from "@/pages/IoT.vue";
 import Cloud from "@/pages/Cloud.vue";
@@ -31,6 +32,23 @@ import InsightPopularAnalytics from "@/pages/InsightPopularAnalytics.vue";
 import InsightModernUtility from "@/pages/InsightModernUtility.vue";
 import InsightAzureML from "@/pages/InsightAzureML.vue";
 import InsightAgileTransformation from "@/pages/InsightAgileTransformation.vue";
+import InsightDigitalTransformation from "@/pages/InsightDigitalTransformation.vue";
+import InsightAgileUnderstanding from "@/pages/InsightAgileUnderstanding.vue";
+import InsightITAgility from "@/pages/InsightITAgility.vue";
+import InsightDataStrategyRight from "@/pages/InsightDataStrategyRight.vue";
+import InsightDigitalCulture from "@/pages/InsightDigitalCulture.vue";
+import InsightGovernanceJourney from "@/pages/InsightGovernanceJourney.vue";
+import InsightAgileEmbrace from "@/pages/InsightAgileEmbrace.vue";
+import InsightLeverageBigData from "@/pages/InsightLeverageBigData.vue";
+import InsightGovernancePath from "@/pages/InsightGovernancePath.vue";
+import InsightDataChange from "@/pages/InsightDataChange.vue";
+import InsightDataSecurityBI from "@/pages/InsightDataSecurityBI.vue";
+import InsightBigDataBusiness from "@/pages/InsightBigDataBusiness.vue";
+import InsightAnalyticsPower from "@/pages/InsightAnalyticsPower.vue";
+import InsightAppDevApproach from "@/pages/InsightAppDevApproach.vue";
+import InsightCloudAppDev from "@/pages/InsightCloudAppDev.vue";
+import InsightInformationArchitecture from "@/pages/InsightInformationArchitecture.vue";
+import InsightBIDataWarehouse from "@/pages/InsightBIDataWarehouse.vue";
 
 Vue.use(Router);
 
@@ -213,6 +231,96 @@ const router = new Router({
       path: "/insights/agile-transformation",
       name: "InsightAgileTransformation",
       component: InsightAgileTransformation
+    },
+    {
+      path: "/insights/digital-transformation",
+      name: "InsightDigitalTransformation",
+      component: InsightDigitalTransformation
+    },
+    {
+      path: "/insights/agile-understanding",
+      name: "InsightAgileUnderstanding",
+      component: InsightAgileUnderstanding
+    },
+    {
+      path: "/insights/it-agility",
+      name: "InsightITAgility",
+      component: InsightITAgility
+    },
+    {
+      path: "/insights/data-strategy-right",
+      name: "InsightDataStrategyRight",
+      component: InsightDataStrategyRight
+    },
+    {
+      path: "/insights/digital-culture",
+      name: "InsightDigitalCulture",
+      component: InsightDigitalCulture
+    },
+    {
+      path: "/insights/data-governance-journey",
+      name: "InsightGovernanceJourney",
+      component: InsightGovernanceJourney
+    },
+    {
+      path: "/insights/agile-embrace",
+      name: "InsightAgileEmbrace",
+      component: InsightAgileEmbrace
+    },
+    {
+      path: "/insights/big-data-leverage",
+      name: "InsightLeverageBigData",
+      component: InsightLeverageBigData
+    },
+    {
+      path: "/insights/data-governance-path",
+      name: "InsightGovernancePath",
+      component: InsightGovernancePath
+    },
+    {
+      path: "/insights/data-analytics-change",
+      name: "InsightDataChange",
+      component: InsightDataChange
+    },
+    {
+      path: "/insights/data-security-bi",
+      name: "InsightDataSecurityBI",
+      component: InsightDataSecurityBI
+    },
+    {
+      path: "/insights/big-data-business",
+      name: "InsightBigDataBusiness",
+      component: InsightBigDataBusiness
+    },
+    {
+      path: "/insights/analytics-power",
+      name: "InsightAnalyticsPower",
+      component: InsightAnalyticsPower
+    },
+    {
+      path: "/insights/application-development-approach",
+      name: "InsightAppDevApproach",
+      component: InsightAppDevApproach
+    },
+    {
+      path: "/insights/cloud-application-development",
+      name: "InsightCloudAppDev",
+      component: InsightCloudAppDev
+    },
+    {
+      path: "/insights/information-architecture",
+      name: "InsightInformationArchitecture",
+      component: InsightInformationArchitecture
+    },
+    {
+      path: "/insights/bi-data-warehousing",
+      name: "InsightBIDataWarehouse",
+      component: InsightBIDataWarehouse
+    },
+    {
+      path: "/work",
+      name: "Works",
+      component: Works
     }
   ]
 });

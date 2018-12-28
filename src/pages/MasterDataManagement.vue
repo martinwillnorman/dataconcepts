@@ -96,8 +96,6 @@ import ServiceAsideRight from "../components/ServiceAsideRight.vue";
 import ServiceAsideLeft from "../components/ServiceAsideLeft.vue";
 import ServiceLeft from "../components/ServiceLeft.vue";
 import ServiceRight from "../components/ServiceRight.vue";
-import ServiceApproach from "../components/ServiceApproach.vue";
-import SubApproach from "../components/SubApproach.vue";
 import WorkTogether from "../components/WorkTogether.vue";
 
 export default {
@@ -113,8 +111,6 @@ export default {
     ServiceAsideLeft,
     ServiceLeft,
     ServiceRight,
-    ServiceApproach,
-    SubApproach,
     WorkTogether
   },
   methods: {
@@ -132,8 +128,8 @@ export default {
 <style lang="sass" scoped>
 @import "../assets/sass/settings.sass"
 .cover-image
-  background-image: url(../assets/background/insights/insight-1large.jpg)
-  filter: brightness(0.35) contrast(1) sepia(100%) hue-rotate(140deg) saturate(6)
+  background-image: url(../assets/background/services-large/mdm.jpg)
+  // filter: brightness(0.35) contrast(1) sepia(100%) hue-rotate(140deg) saturate(6)
 
 .reg-link
   margin: 20px 0 0

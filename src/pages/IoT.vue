@@ -4,7 +4,7 @@
     <NavBarWhite/>
     <div class="sections">
       <section class="content-block fullpage">
-        <div v-parallax="0.4" class="cover-image tinted"></div>
+        <div id="iot" v-parallax="0.4" class="cover-image tinted"></div>
         <div class="container">
           <div class="row">
             <div @click="scrollDown" class="show-more">
@@ -82,7 +82,9 @@ specific business needs, assessment of IoT maturity level, identification of ope
           </div>
         </div>
       </section>
-      <ServiceApproach title="IoT Solutions"/>
+      <ServiceApproach title="IoT Solutions">
+        <div id="approach" v-parallax="0.2" class="cover-image tinted"></div>
+      </ServiceApproach>
       <section class="content-block grey">
         <div class="container">
           <div class="row padded">
@@ -228,6 +230,32 @@ specific business needs, assessment of IoT maturity level, identification of ope
           </div>
         </div>
       </section>
+      <section class="content-block">
+        <div class="container">
+          <Spacer/>
+          <div class="row">
+            <div class="column col-12 center-horizontal">
+              <h1 data-aos="fade-up" data-aos-duration="600" class="section-header">Related</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="column col-12">
+              <div class="content-wrapper related-wrapper">
+                <RelatedBox
+                  link="/insights/modern-utility"
+                  category="Insight"
+                  title="The Needs of Modern Utility Consumers"
+                ></RelatedBox>
+                <RelatedBox
+                  link="/insights/data-security-bi"
+                  category="Insight"
+                  title="Data Security in the BI & IoT World"
+                ></RelatedBox>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <WorkTogether/>
     </div>
   </div>
@@ -243,6 +271,7 @@ import SubService from "../components/SubService.vue";
 import ServiceApproach from "../components/ServiceApproach.vue";
 import SubApproach from "../components/SubApproach.vue";
 import WorkTogether from "../components/WorkTogether.vue";
+import RelatedBox from "../components/RelatedBox.vue";
 
 export default {
   name: "IoT",
@@ -255,7 +284,8 @@ export default {
     SubService,
     ServiceApproach,
     SubApproach,
-    WorkTogether
+    WorkTogether,
+    RelatedBox
   },
   methods: {
     scrollDown() {
@@ -271,10 +301,14 @@ export default {
 
 <style lang="sass" scoped>
 @import "../assets/sass/settings.sass"
-.cover-image
-  background-image: url(../assets/background/insights/insight-1large.jpg)
-  filter: brightness(0.35) contrast(1) sepia(100%) hue-rotate(140deg) saturate(6)
+#iot
+  background-image: url(../assets/background/services-large/iot.jpg)
+  // filter: brightness(0.35) contrast(1) sepia(100%) hue-rotate(140deg) saturate(6)
+
+#approach
+  background-image: url(../assets/background/services-large/approach-7.jpg)
 
 .reg-link
   margin: 20px 0 0
+
 </style>

@@ -4,7 +4,7 @@
     <NavBarWhite/>
     <div class="sections">
       <section class="content-block fullpage">
-        <div v-parallax="0.4" class="cover-image tinted"></div>
+        <div id="blockchain" v-parallax="0.4" class="cover-image tinted"></div>
         <div class="container">
           <div class="row">
             <div @click="scrollDown" class="show-more">
@@ -126,7 +126,9 @@
           />
         </div>
       </section>
-      <ServiceApproach title="Blockchain Approach"/>
+      <ServiceApproach title="Blockchain Approach">
+        <div id="approach" v-parallax="0.2" class="cover-image tinted"></div>
+      </ServiceApproach>
       <section class="content-block grey">
         <div class="container">
           <div class="row padded">
@@ -151,6 +153,26 @@
           </div>
         </div>
       </section>
+      <section class="content-block">
+        <div class="container">
+          <div class="row padded-top">
+            <div class="column col-12 center-horizontal">
+              <h1 data-aos="fade-up" data-aos-duration="600" class="section-header">Related</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="column col-12">
+              <div class="content-wrapper related-wrapper">
+                <RelatedBox
+                  link="/insights/blockchain-world"
+                  category="Insight"
+                  title="Our Insights on the World of Blockchain"
+                ></RelatedBox>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <WorkTogether/>
     </div>
   </div>
@@ -170,6 +192,7 @@ import ServiceRight from "../components/ServiceRight.vue";
 import ServiceApproach from "../components/ServiceApproach.vue";
 import SubApproach from "../components/SubApproach.vue";
 import WorkTogether from "../components/WorkTogether.vue";
+import RelatedBox from "../components/RelatedBox.vue";
 
 export default {
   name: "Blockchain",
@@ -186,7 +209,8 @@ export default {
     ServiceRight,
     ServiceApproach,
     SubApproach,
-    WorkTogether
+    WorkTogether,
+    RelatedBox
   },
   methods: {
     scrollDown() {
@@ -202,9 +226,12 @@ export default {
 
 <style lang="sass" scoped>
 @import "../assets/sass/settings.sass"
-.cover-image
-  background-image: url(../assets/background/insights/insight-1large.jpg)
-  filter: brightness(0.35) contrast(1) sepia(100%) hue-rotate(140deg) saturate(6)
+#blockchain
+  background-image: url(../assets/background/services-large/blockchain.jpg)
+  // filter: brightness(0.35) contrast(1) sepia(100%) hue-rotate(140deg) saturate(6)
+
+#approach
+  background-image: url(../assets/background/services-large/approach-4.jpg)
 
 .reg-link
   margin: 20px 0 0

@@ -1,6 +1,6 @@
 <template>
   <section class="content-block mostpage">
-    <div v-parallax="0.2" class="cover-image tinted"></div>
+    <slot></slot>
     <div class="container">
       <div class="row">
         <div class="column col-12 center-content">
@@ -29,7 +29,6 @@ export default {
 @import "../assets/sass/settings.sass"
 
 .cover-image
-  background-image: url("../assets/background/services/insight-1large.jpg")
   filter: brightness(0.35) contrast(1) sepia(100%) hue-rotate(210deg) saturate(6)
 
 h1

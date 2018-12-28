@@ -4,7 +4,7 @@
     <NavBarWhite/>
     <div class="sections">
       <section class="content-block fullpage">
-        <div v-parallax="0.4" class="cover-image tinted"></div>
+        <div id="mobility" v-parallax="0.4" class="cover-image tinted"></div>
         <div class="container">
           <div class="row">
             <div @click="scrollDown" class="show-more">
@@ -101,7 +101,9 @@
           ></SubJourney>
         </div>
       </section>
-      <ServiceApproach title="Mobile Application Expertise"/>
+      <ServiceApproach title="Mobile Application Expertise">
+        <div id="approach" v-parallax="0.2" class="cover-image tinted"></div>
+      </ServiceApproach>
       <section class="content-block grey">
         <div class="container">
           <div class="row padded">
@@ -185,9 +187,12 @@ export default {
 
 <style lang="sass" scoped>
 @import "../assets/sass/settings.sass"
-.cover-image
-  background-image: url(../assets/background/insights/insight-1large.jpg)
-  filter: brightness(0.35) contrast(1) sepia(100%) hue-rotate(140deg) saturate(6)
+#mobility
+  background-image: url(../assets/background/services-large/mobility.jpg)
+  // filter: brightness(0.35) contrast(1) sepia(100%) hue-rotate(140deg) saturate(6)
+
+#approach
+  background-image: url(../assets/background/services-large/approach-8.jpg)
 
 .reg-link
   margin: 20px 0 0

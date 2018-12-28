@@ -4,7 +4,7 @@
     <NavBarWhite/>
     <div class="sections">
       <section class="content-block fullpage">
-        <div v-parallax="0.4" class="cover-image tinted"></div>
+        <div id="app-dev" v-parallax="0.4" class="cover-image tinted"></div>
         <div class="container">
           <div class="row">
             <div @click="scrollDown" class="show-more">
@@ -166,7 +166,9 @@
           </SubJourney>
         </div>
       </section>
-      <ServiceApproach title="Application Development Approach & Technology"/>
+      <ServiceApproach title="Application Development Approach & Technology">
+        <div id="approach" v-parallax="0.2" class="cover-image tinted"></div>
+      </ServiceApproach>
       <section class="content-block grey">
         <div class="container">
           <div class="row padded">
@@ -195,6 +197,32 @@
           </div>
         </div>
       </section>
+      <section class="content-block">
+        <div class="container">
+          <Spacer/>
+          <div class="row">
+            <div class="column col-12 center-horizontal">
+              <h1 data-aos="fade-up" data-aos-duration="600" class="section-header">Related</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="column col-12">
+              <div class="content-wrapper related-wrapper">
+                <RelatedBox
+                  link="/insights/application-development-approach"
+                  category="Insight"
+                  title="Application Development: Our Approach"
+                ></RelatedBox>
+                <RelatedBox
+                  link="/insights/cloud-application-development"
+                  category="Cloud | Application Development"
+                  title="Cloud Application Development"
+                ></RelatedBox>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <WorkTogether/>
     </div>
   </div>
@@ -215,6 +243,7 @@ import ServiceApproach from "../components/ServiceApproach.vue";
 import SubApproach from "../components/SubApproach.vue";
 import WorkTogether from "../components/WorkTogether.vue";
 import SubJourney from "../components/SubJourney.vue";
+import RelatedBox from "../components/RelatedBox.vue";
 
 export default {
   name: "ApplicationDevelopment",
@@ -232,7 +261,8 @@ export default {
     ServiceApproach,
     SubApproach,
     WorkTogether,
-    SubJourney
+    SubJourney,
+    RelatedBox
   },
   methods: {
     scrollDown() {
@@ -248,9 +278,13 @@ export default {
 
 <style lang="sass" scoped>
 @import "../assets/sass/settings.sass"
-.cover-image
-  background-image: url(../assets/background/insights/insight-1large.jpg)
-  filter: brightness(0.35) contrast(1) sepia(100%) hue-rotate(140deg) saturate(6)
+#app-dev
+  background-image: url(../assets/background/services-large/app-dev.jpg)
+  // filter: brightness(0.35) contrast(1) sepia(100%) hue-rotate(140deg) saturate(6)
+
+#approach
+  background-image: url(../assets/background/services-large/approach-3.jpg)
+  background-position: center
 
 .reg-link
   margin: 20px 0 0
