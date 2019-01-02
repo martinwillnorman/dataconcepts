@@ -1,10 +1,9 @@
 <template>
   <div class="row">
-    <div class="column col-2 no-content"></div>
     <div class="column col-8 responsive-12">
-      <div data-aos="fade-up" data-aos-duration="600" class="content-wrapper">
-        <h1>The Promise of {{title}}</h1>
-        <p>{{content}}</p>
+      <div class="content-wrapper text-white">
+        <h1 data-aos="fade-up" data-aos-duration="600">Client Summary</h1>
+        <p data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">{{content}}</p>
       </div>
     </div>
   </div>
@@ -12,8 +11,8 @@
 
 <script>
 export default {
-  name: "ServicePromise",
-  props: ["title", "content"]
+  name: "WorkSummary",
+  props: ["content"]
 };
 </script>
 
