@@ -27,8 +27,7 @@ export default {
 <style lang="sass" scoped>
 @import "../../assets/sass/settings.sass"
 
-.brown-grey
-    background-color: $bround-c-brown-grey
+
 
 .subtitle-wrapper
   margin-bottom: 80px
