@@ -20,7 +20,7 @@
                   <router-link to="/careers">Careers</router-link>
                 </li>
                 <li>
-                  <router-link to="/contact-us">Contact Us</router-link>
+                  <router-link to="/contact">Contact</router-link>
                 </li>
               </ul>
               <a class="target-burger" v-on="{ click: myFilter}">
@@ -101,15 +101,16 @@ nav
   align-items: center
 
 .logo 
-  color: $font-c-1
+  color: #000
   font:
     size: 1.8rem
     weight: 900
     family: $font-header
+  letter-spacing: 2px
 
 .logo::before
   content: "data"
-  color: $dataconcepts-red
+  color: #000
 
 .standard-nav-holder
   align-items: center
@@ -130,7 +131,7 @@ li a
     weight: 900
     family: $font-header
   position: relative
-  letter-spacing: 0.5px 
+  letter-spacing: 2px 
 
 li a::after
   content: ""

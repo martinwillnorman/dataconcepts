@@ -3,12 +3,51 @@
     <ModalMenu/>
     <NavBarWhite/>
     <div class="sections">
-      <section class="content-block">
+      <!-- <section class="content-block">
         <div class="content-wrapper">
           <div class="nav-block"></div>
         </div>
+      </section>-->
+      <section class="content-block fullpage black">
+        <div class="container">
+          <div class="row">
+            <div @click="scrollDown" class="show-more">
+              <svg
+                data-aos="fade-down"
+                data-aos-duration="600"
+                fill="#fff"
+                version="1.1"
+                id="Ebene_2_1_"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                x="0px"
+                y="0px"
+                width="53px"
+                height="20px"
+                viewBox="0 0 53 20"
+                enable-background="new 0 0 53 20"
+                xml:space="preserve"
+              >
+                <g>
+                  <polygon
+                    points="26.5,17.688 9.114,3.779 10.303,2.312 26.5,15.269 42.697,2.313 43.886,3.779 	"
+                  ></polygon>
+                </g>
+              </svg>
+            </div>
+            <div class="column col-12">
+              <div class="content-wrapper header-wrapper text-white">
+                <h1
+                  data-aos="fade-in"
+                  data-aos-duration="600"
+                  class="insights-header"
+                >Our services, with a smile.</h1>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
-      <section class="content-block black">
+      <section id="first" class="content-block black">
         <div class="content-wrapper services-wrapper">
           <div class="service">
             <router-link class="service-link" to="/services/big-data"></router-link>
@@ -108,13 +147,20 @@
               <h3>Cyber Security</h3>
             </div>
           </div>
+          <div class="service">
+            <router-link class="service-link" to="/services/microsoft-azure"></router-link>
+            <div id="cyber-security-bround" class="service-background"></div>
+            <div class="service-content">
+              <h3>Microsoft Azure</h3>
+            </div>
+          </div>
         </div>
       </section>
       <section class="content-block mostpage">
         <div class="container">
           <div class="row">
             <div class="column col-12 center-content">
-              <h1 data-aos="fade-up" data-aos-duration="900">Let's talk data.</h1>
+              <h1 class="lets-talk" data-aos="fade-up" data-aos-duration="900">Let's talk data.</h1>
             </div>
           </div>
         </div>
@@ -185,12 +231,32 @@ export default {
   components: {
     NavBarWhite,
     ModalMenu
+  },
+  methods: {
+    scrollDown() {
+      document.getElementById("first").scrollIntoView({
+        behavior: "smooth",
+        block: "start"
+      });
+    }
   }
 };
 </script>
 
 <style lang="sass" scoped>
 @import "../assets/sass/settings.sass"
+
+.insights-header
+  font:
+    size: 170px
+    family: $font-body
+  line-height: 178px
+  letter-spacing: -2px
+
+.header-wrapper 
+  // max-width: 1000px
+  margin: 0 auto
+  padding-top: 180px
 
 #big-data-bround
   background-image: url(../assets/background/services-small/big-data.jpg)
@@ -258,6 +324,7 @@ export default {
 .services-wrapper
     display: flex
     flex-wrap: wrap
+    justify-content: center
 
 .service
     flex-basis: 25%
@@ -312,12 +379,12 @@ export default {
 .service-content h3
   color: #fff
   font:
-      size: 3rem
+      size: 2.4rem
       family: $font-body
-      weight: 200
-  letter-spacing: 0.2rem
+      weight: 400
+  letter-spacing: 2px
 
-h1
+.lets-talk
     font: 
         size: 8rem
     color: #ff48a6
@@ -326,11 +393,12 @@ h1
     -webkit-background-clip: text
     display: inline-block
     text-align: center
+    width: 100%
 
 @media only screen and (max-width: 1500px)
   h3
     font:
-      size: 2.5rem !important
+      size: 2rem !important
 
 @media only screen and (max-width: 1230px) 
   .service
@@ -338,6 +406,10 @@ h1
     width: 33.3333%
     max-width: 33.3333%
     height: 31vw
+
+  h3
+    font:
+      size: 2.2rem !important
 
 @media only screen and (max-width: 900px) 
   .service

@@ -1,3 +1,4 @@
+
 <template>
   <div class="service">
     <h1>{{title}}</h1>
@@ -41,9 +42,7 @@ p
     width: 50%
     max-width: 50%
 
-
 @media only screen and (max-width: 768px)
-
   .service
     padding: 20px 10px
 

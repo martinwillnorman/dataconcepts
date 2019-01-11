@@ -18,7 +18,7 @@
                 <router-link class="page-link" to="/careers">Careers</router-link>
               </li>
               <li class="margined">
-                <router-link class="page-link" to="/contact-us">Contact</router-link>
+                <router-link class="page-link" to="/contact">Contact</router-link>
               </li>
             </ul>
             <ul class="social-link-holder">
@@ -111,10 +111,10 @@ img
   position: absolute
   top: 100%
   left: 0
-  height: 1px
+  height: 2px
   width: 100%
   transform: translatey(10px)
-  background: $dataconcepts-red
+  background: $font-c-1
   opacity: 0
   transition: transform 400ms cubic-bezier(.29,.29,.42,1.01), opacity 600ms ease-in-out, color 600ms ease-in-out
 
@@ -128,6 +128,10 @@ img
 @media only screen and (min-width: 1000px)
   .modal-menu
     display: none !important
+
+@media only screen and (max-width: 450px)
+  .page-link
+    font-size: 2.4rem
 
 </style>
 
