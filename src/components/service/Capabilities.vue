@@ -7,7 +7,7 @@
           <div class="content-wrapper text-white">
             <div class="subtitle-wrapper">
               <hr class="subtitle white">
-              <h6 class="subtitle-header">{{title}}</h6>
+              <h6 class="subtitle-header">{{subtitle}}</h6>
             </div>
           </div>
         </div>
@@ -20,14 +20,12 @@
 <script>
 export default {
   name: "Capabilities",
-  props: ["title"]
+  props: ["subtitle"]
 };
 </script>
 
 <style lang="sass" scoped>
 @import "../../assets/sass/settings.sass"
-
-
 
 .subtitle-wrapper
   margin-bottom: 80px

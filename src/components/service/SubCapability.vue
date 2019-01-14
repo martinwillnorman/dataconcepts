@@ -24,7 +24,7 @@ export default {
   background-color: transparent
   display: block
   border: 0
-  border-top: solid 1px #fff
+  border-top: solid 1px $bround-c-yellow
   margin: 12px 0 12px auto
   height: 0
   padding: 0
@@ -34,13 +34,13 @@ export default {
 
 .subcapability-title
   font-size: 2rem
-  font-weight: 700
+  font-weight: 400
   letter-spacing: -1px
   margin-bottom: 1.66667rem
 
 .subcapability-text
   font-size: 1rem
-  font-weight: 600
+  font-weight: 400
   line-height: 1.4
 
 .subcapability

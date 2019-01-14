@@ -1,12 +1,12 @@
 <template>
   <section class="content-block service-footer-block">
-    <router-link class="service-footer-link-contact blue" to="/contact">
+    <router-link class="service-footer-link-contact" to="/contact">
       <div class="container padded">
         <div class="row">
           <div class="column col-12">
-            <div class="content-wrapper service-footer-wrapper text-white">
-              <h1 class="footer-header">Have a Project for Us?</h1>
-              <p class="footer-kicker">You're in Good Company.</p>
+            <div class="content-wrapper service-footer-wrapper">
+              <h1 class="footer-header">The Company We Keep.</h1>
+              <p class="footer-kicker">Want to work with us?</p>
             </div>
           </div>
         </div>
@@ -78,7 +78,7 @@
               >
                 <g>
                   <polygon
-                    fill="#FFFFFF"
+                    fill="#000"
                     points="325.041,396.329 325.502,395.861 325.046,395.398 325.432,395.008 325.041,394.612 325.041,394.533 324.963,394.533 313.102,382.498 311.805,383.814 322.367,394.533 286.5,394.533 286.5,396.395 322.354,396.395 311.732,407.172 313.044,408.503 324.977,396.395 325.041,396.395 	"
                   ></polygon>
                 </g>
@@ -145,11 +145,13 @@ export default {
     flex-wrap: wrap
 
 .footer-header
+  color: $font-c-1
   font:
     size: 2.4rem
   margin-bottom: 10px 
 
 .footer-kicker
+  color: $font-c-1
   font:
     size: 1.4rem
 
@@ -164,6 +166,7 @@ export default {
   display: flex
   flex-wrap: wrap
   justify-content: center
+  padding-top: 40px
 
 .service-clientele
   width: 20%
@@ -180,6 +183,7 @@ export default {
 .service-footer-link-contact
     position: relative
     width: 100%
+    // background: pink
 
 .service-footer-link-people
     position: relative
